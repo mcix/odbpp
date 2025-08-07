@@ -6,8 +6,8 @@ ODB++ is a CAD-to-CAM data exchange format used in the PCB (Printed Circuit Boar
 
 # Goal 1
 Extract basic part information such as location and component size. And the board outline.
-- The board outline is defined in the step profile located at `steps/{step_name}/profile`.
 - Component data is located in `steps/{step_name}/layers/comp_+_top` for the top side and `steps/{step_name}/layers/comp_+_bot` for the bottom side of the board.
+- The board outline is defined in the step profile located at `steps/{step_name}/profile`.
 
 # Goal 2
 General manufacturing and assembly metrics:
