@@ -6,21 +6,17 @@ This script converts an ODB++ profile file to SVG format.
 The profile defines the outline shape of a PCB step including islands and holes.
 """
 
+import os
 import re
 import math
 import sys
-from typing import List, Tuple, Optional
+import tarfile
+from io import TextIOWrapper
+from typing import List, Tuple, Optional, Dict
 from xml.dom.minidom import Document
 
-
-class ProfileParser:
-    """Parser for ODB++ profile files"""
-    
-    def __init__(self):
-        self.units = "MM"
-        self.features = []
-        self.current_surface = None
-        self.current_polygon = None
+# NOTE: A complete ProfileParser is defined later in the file. The earlier
+# minimal stub was removed to avoid double definitions.
 
 
 class ComponentParser:
@@ -30,17 +26,17 @@ class ComponentParser:
         self.units = "MM"
         self.components = []
     
-    def parse_file(self, filename: str):
-        """Parse an ODB++ component file"""
-        with open(filename, 'r') as f:
-            lines = f.readlines()
-        
-        for line in lines:
-            line = line.strip()
+    def parse(self, lines: List[str]):
+        """Parse an ODB++ component file from provided lines"""
+        for raw_line in lines:
+            line = raw_line.strip()
             if not line or line.startswith('#'):
                 continue
-                
             self._parse_line(line)
+    
+    def parse_file(self, filename: str):
+        with open(filename, 'r') as f:
+            self.parse(f.readlines())
     
     def _parse_line(self, line: str):
         """Parse a single line from the component file"""
@@ -88,17 +84,16 @@ class ProfileParser:
         self.current_surface = None
         self.current_polygon = None
         
-    def parse_file(self, filename: str):
-        """Parse an ODB++ profile file"""
-        with open(filename, 'r') as f:
-            lines = f.readlines()
-        
-        for line in lines:
-            line = line.strip()
+    def parse(self, lines: List[str]):
+        for raw_line in lines:
+            line = raw_line.strip()
             if not line or line.startswith('#'):
                 continue
-                
             self._parse_line(line)
+        
+    def parse_file(self, filename: str):
+        with open(filename, 'r') as f:
+            self.parse(f.readlines())
     
     def _parse_line(self, line: str):
         """Parse a single line from the profile file"""
@@ -203,8 +198,8 @@ class SVGGenerator:
         # Create SVG root element
         svg = self.doc.createElement('svg')
         svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg')
-        svg.setAttribute('width', f'{width}')
-        svg.setAttribute('height', f'{height}')
+        svg.setAttribute('width', f'{width*100}')
+        svg.setAttribute('height', f'{height*100}')
         svg.setAttribute('viewBox', f'{min_x - padding} {min_y - padding} {width} {height}')
         self.doc.appendChild(svg)
         
@@ -231,10 +226,6 @@ class SVGGenerator:
             f.write(self.doc.toprettyxml(indent='  '))
         
         print(f"SVG generated: {output_filename}")
-        print(f"Bounds: ({min_x:.3f}, {min_y:.3f}) to ({max_x:.3f}, {max_y:.3f})")
-        print(f"Units: {self.profile_parser.units}")
-        if self.component_parser:
-            print(f"Components: {len(self.component_parser.components)}")
     
     def _calculate_bounds(self) -> Tuple[float, float, float, float]:
         """Calculate the bounding box of all features including components"""
@@ -387,40 +378,141 @@ class SVGGenerator:
             components_group.appendChild(text)
 
 
+def discover_in_archive(tar: tarfile.TarFile) -> Dict[str, str]:
+    """Discover profile and component files inside a .tgz archive.
+    Returns dict with keys: profile, comp_top, comp_bot.
+    Chooses the first step found.
+    """
+    members = [m for m in tar.getmembers() if m.isfile()]
+    # Normalize names without leading ./ and using '/'
+    names = [m.name.lstrip('./') for m in members]
+    # Find steps/<step>/profile
+    profile_path = None
+    comp_top = None
+    comp_bot = None
+    step_name = None
+    for n in names:
+        parts = n.split('/')
+        for i in range(len(parts) - 2):
+            if parts[i] == 'steps' and parts[i+2] == 'profile':
+                profile_path = n
+                step_name = parts[i+1]
+                break
+        if profile_path:
+            break
+    if step_name:
+        # Try components under layers
+        for n in names:
+            if f'steps/{step_name}/layers/comp_+_top/components' in n:
+                comp_top = n
+            if f'steps/{step_name}/layers/comp_+_bot/components' in n:
+                comp_bot = n
+    return {"profile": profile_path, "comp_top": comp_top, "comp_bot": comp_bot}
+
+
+def discover_in_folder(root: str) -> Dict[str, str]:
+    """Discover profile and component files inside an ODB++ folder.
+    Returns dict with keys: profile, comp_top, comp_bot.
+    Chooses the first step found if multiple.
+    """
+    profile_path = None
+    comp_top = None
+    comp_bot = None
+    step_dir = None
+    for dirpath, dirnames, filenames in os.walk(root):
+        # Match steps/<step>/profile
+        parts = dirpath.split(os.sep)
+        for i in range(len(parts) - 1):
+            if parts[i] == 'steps':
+                step = parts[i+1] if i + 1 < len(parts) else None
+                if step and os.path.basename(dirpath) == step:
+                    prof = os.path.join(dirpath, 'profile')
+                    if os.path.isfile(prof):
+                        profile_path = prof
+                        step_dir = dirpath
+                        break
+        if profile_path:
+            break
+    if step_dir:
+        comp_top_candidate = os.path.join(step_dir, 'layers', 'comp_+_top', 'components')
+        comp_bot_candidate = os.path.join(step_dir, 'layers', 'comp_+_bot', 'components')
+        if os.path.isfile(comp_top_candidate):
+            comp_top = comp_top_candidate
+        if os.path.isfile(comp_bot_candidate):
+            comp_bot = comp_bot_candidate
+    return {"profile": profile_path, "comp_top": comp_top, "comp_bot": comp_bot}
+
+
+def read_text_from_archive(tar: tarfile.TarFile, path_in_tar: str) -> List[str]:
+    member = tar.getmember(path_in_tar)
+    f = tar.extractfile(member)
+    assert f is not None
+    return TextIOWrapper(f, encoding='utf-8', errors='ignore').read().splitlines(True)
+
+
+def run_from_source(source_path: str, out_top: str, out_bot: str):
+    """Handle both directory and .tgz sources, discover files, and emit two SVGs."""
+    is_archive = source_path.lower().endswith(('.tgz', '.tar.gz'))
+
+    if is_archive:
+        with tarfile.open(source_path, 'r:gz') as tar:
+            found = discover_in_archive(tar)
+            if not found['profile']:
+                raise FileNotFoundError('profile not found in archive')
+            # Parse profile
+            profile_lines = read_text_from_archive(tar, found['profile'])
+            prof = ProfileParser()
+            prof.parse(profile_lines)
+
+            # Top
+            comp_top_parser = None
+            if found['comp_top']:
+                comp_top_lines = read_text_from_archive(tar, found['comp_top'])
+                comp_top_parser = ComponentParser()
+                comp_top_parser.parse(comp_top_lines)
+            SVGGenerator(prof, comp_top_parser).generate_svg(out_top)
+
+            # Bottom
+            comp_bot_parser = None
+            if found['comp_bot']:
+                comp_bot_lines = read_text_from_archive(tar, found['comp_bot'])
+                comp_bot_parser = ComponentParser()
+                comp_bot_parser.parse(comp_bot_lines)
+            SVGGenerator(prof, comp_bot_parser).generate_svg(out_bot)
+    else:
+        found = discover_in_folder(source_path)
+        if not found['profile']:
+            raise FileNotFoundError('profile not found in folder')
+        prof = ProfileParser()
+        prof.parse_file(found['profile'])
+
+        # Top
+        comp_top_parser = None
+        if found['comp_top']:
+            comp_top_parser = ComponentParser()
+            comp_top_parser.parse_file(found['comp_top'])
+        SVGGenerator(prof, comp_top_parser).generate_svg(out_top)
+
+        # Bottom
+        comp_bot_parser = None
+        if found['comp_bot']:
+            comp_bot_parser = ComponentParser()
+            comp_bot_parser.parse_file(found['comp_bot'])
+        SVGGenerator(prof, comp_bot_parser).generate_svg(out_bot)
+
+
 def main():
     """Main function"""
-    if len(sys.argv) < 3 or len(sys.argv) > 4:
-        print("Usage: python odbpp_profile_to_svg.py <input_profile> <output_svg> [components_file]")
-        print("Example: python odbpp_profile_to_svg.py testdata/qorvpr71odbpp/steps/stp/profile output.svg")
-        print("Example: python odbpp_profile_to_svg.py testdata/qorvpr71odbpp/steps/stp/profile output.svg testdata/qorvpr71odbpp/steps/stp/layers/comp_+_top/components")
+    if len(sys.argv) != 2:
+        print("Usage: python odbpp_profile_to_svg.py <odb_root_or_tgz>")
+        print("- If a directory is provided, the script searches steps/<step>/profile and layers/comp_+_top|bot/components.")
+        print("- If a .tgz is provided, it searches the archive for the same paths.")
+        print("Outputs: top.svg and bottom.svg in the current directory.")
         sys.exit(1)
-    
-    input_file = sys.argv[1]
-    output_file = sys.argv[2]
-    components_file = sys.argv[3] if len(sys.argv) == 4 else None
-    
+
+    source = sys.argv[1]
     try:
-        # Parse the profile file
-        profile_parser = ProfileParser()
-        profile_parser.parse_file(input_file)
-        
-        if not profile_parser.features:
-            print("No features found in the profile file")
-            sys.exit(1)
-        
-        # Parse components file if provided
-        component_parser = None
-        if components_file:
-            component_parser = ComponentParser()
-            component_parser.parse_file(components_file)
-        
-        # Generate SVG
-        generator = SVGGenerator(profile_parser, component_parser)
-        generator.generate_svg(output_file)
-        
-    except FileNotFoundError as e:
-        print(f"Error: Could not find input file: {e}")
-        sys.exit(1)
+        run_from_source(source, 'top.svg', 'bottom.svg')
     except Exception as e:
         print(f"Error: {e}")
         sys.exit(1)
