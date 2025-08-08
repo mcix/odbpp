@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="17334.99674999958" height="5339.939249999999" viewBox="-90.20000749999978 -6.7996824999928 173.34996749999578 53.3993925">
+  <g transform="translate(-7.050047500003785 0) scale(-1,1)">
+    <g>
+      <path d="M -12.556 41.592 A 0.200 0.200 0 0 1 -12.700 41.410 L -12.700 39.027 A 0.200 0.200 0 0 0 -12.887 38.830 L -13.009 38.830 A 0.200 0.200 0 0 1 -13.200 38.641 L -13.200 37.522 A 3.300 3.300 0 0 0 -14.200 35.163 L -14.201 27.549 L -14.204 27.472 L -14.210 27.395 L -14.220 27.318 L -14.232 27.242 L -14.247 27.166 L -14.265 27.091 L -14.286 27.016 L -14.310 26.943 L -14.337 26.870 L -14.367 26.798 L -14.399 26.728 L -14.434 26.659 L -14.472 26.591 L -14.512 26.525 L -14.555 26.460 L -14.601 26.397 L -15.357 25.447 L -15.408 25.389 L -15.461 25.332 L -15.516 25.278 L -15.573 25.226 L -15.633 25.175 L -15.694 25.128 L -15.757 25.083 L -15.821 25.040 L -15.887 25.000 L -15.955 24.963 L -16.024 24.928 L -16.095 24.895 L -16.166 24.866 L -16.239 24.840 L -16.311 24.816 L -16.385 24.795 L -16.459 24.777 L -16.535 24.762 L -16.609 24.750 L -16.681 24.741 L -16.754 24.735 L -16.859 24.730 L -25.294 24.730 L -25.428 24.733 L -25.566 24.740 L -25.703 24.751 L -25.846 24.766 L -25.986 24.786 L -26.125 24.808 L -26.265 24.836 L -26.404 24.867 L -26.542 24.902 L -26.680 24.941 L -26.817 24.984 L -26.952 25.031 L -27.086 25.082 L -27.218 25.137 L -27.349 25.195 L -27.478 25.257 L -27.605 25.323 L -27.731 25.393 L -27.854 25.466 L -27.976 25.543 L -28.095 25.623 L -28.212 25.707 L -28.326 25.794 L -28.438 25.884 L -28.547 25.977 L -28.699 26.115 L -29.022 26.418 L -29.339 26.725 L -29.651 27.038 L -29.959 27.355 L -30.260 27.677 L -30.556 28.004 L -30.847 28.335 L -31.132 28.670 L -31.411 29.010 L -31.685 29.354 L -31.953 29.703 L -32.216 30.056 L -32.472 30.412 L -32.723 30.773 L -32.967 31.137 L -33.205 31.504 L -33.437 31.874 L -33.663 32.249 L -33.858 32.580 A 5.000 5.000 0 0 1 -38.084 34.980 L -44.743 34.980 A 3.000 3.000 0 0 0 -46.095 35.328 L -46.344 35.467 L -46.505 35.551 L -46.669 35.632 L -46.834 35.708 L -47.001 35.781 L -47.170 35.849 L -47.341 35.912 L -47.513 35.971 L -47.686 36.026 L -47.860 36.076 L -48.036 36.122 L -48.213 36.163 L -48.391 36.200 L -48.570 36.232 L -48.747 36.259 L -48.924 36.282 L -49.102 36.301 L -49.280 36.315 L -49.459 36.324 L -49.698 36.330 L -51.802 36.330 L -51.969 36.327 L -52.146 36.319 L -52.323 36.307 A 7.150 7.150 0 0 1 -55.866 35.026 L -56.128 34.835 L -56.212 34.777 L -56.298 34.723 L -56.386 34.671 L -56.475 34.622 L -56.567 34.576 L -56.659 34.533 L -56.753 34.494 L -56.848 34.458 L -56.945 34.425 L -57.041 34.396 L -57.138 34.370 L -57.236 34.347 L -57.336 34.327 L -57.434 34.311 L -57.532 34.298 L -57.632 34.289 L -57.722 34.283 L -57.882 34.280 A 4.250 4.250 0 0 0 -61.750 36.844 L -61.829 37.034 L -61.862 37.105 L -61.897 37.174 L -61.935 37.241 L -61.975 37.307 L -62.019 37.372 L -62.064 37.435 L -62.112 37.496 L -62.162 37.555 L -62.215 37.612 L -62.270 37.667 L -62.326 37.720 L -62.385 37.771 L -62.446 37.819 L -62.508 37.865 L -62.573 37.908 L -62.639 37.949 L -62.706 37.987 L -62.774 38.023 L -62.844 38.056 L -62.916 38.086 L -62.988 38.114 L -63.062 38.138 L -63.136 38.160 L -63.212 38.179 L -63.287 38.195 L -63.362 38.208 L -63.439 38.218 L -63.515 38.225 L -63.628 38.230 L -84.717 38.230 A 0.500 0.500 0 0 1 -85.200 37.736 L -85.200 29.330 A 0.500 0.500 0 0 1 -84.721 28.830 L -58.834 28.830 A 9.750 9.750 0 0 1 -54.541 29.359 L -54.407 29.411 L -54.274 29.467 L -54.143 29.526 L -54.014 29.590 L -53.887 29.657 L -53.762 29.727 L -53.639 29.801 L -53.519 29.879 L -53.400 29.960 L -53.284 30.045 L -53.170 30.132 L -53.059 30.223 L -52.951 30.317 L -52.834 30.423 L -52.782 30.467 L -52.728 30.508 L -52.672 30.548 L -52.615 30.584 L -52.557 30.619 L -52.496 30.651 L -52.435 30.681 L -52.371 30.708 L -52.308 30.732 L -52.245 30.754 L -52.179 30.773 L -52.113 30.789 L -52.048 30.803 L -51.981 30.814 L -51.913 30.822 L -51.793 30.829 L -49.706 30.829 L -49.639 30.826 L -49.573 30.821 A 1.650 1.650 0 0 0 -48.762 30.502 L -48.642 30.414 A 5.000 5.000 0 0 1 -45.758 29.480 L -39.486 29.479 L -39.412 29.476 L -39.340 29.471 L -39.264 29.462 L -39.187 29.450 L -39.112 29.435 L -39.037 29.417 L -38.964 29.397 L -38.890 29.373 L -38.818 29.347 L -38.746 29.318 L -38.676 29.286 L -38.606 29.252 L -38.538 29.214 L -38.471 29.174 L -38.406 29.131 L -38.343 29.086 L -38.281 29.039 L -38.221 28.989 L -38.164 28.937 L -38.108 28.882 L -38.054 28.825 L -38.003 28.767 L -37.955 28.707 L -37.908 28.644 L -37.864 28.580 L -37.585 28.150 L -37.311 27.740 L -37.030 27.333 L -36.743 26.930 L -36.449 26.531 L -36.149 26.136 L -35.843 25.746 L -35.531 25.360 L -35.213 24.978 L -34.889 24.601 L -34.559 24.229 L -34.222 23.862 L -33.881 23.499 L -33.533 23.142 L -33.180 22.789 L -32.821 22.442 L -32.457 22.100 L -32.088 21.764 L -31.713 21.433 L -31.333 21.107 L -30.947 20.787 L -30.557 20.473 L -30.262 20.243 L -30.146 20.158 L -30.029 20.076 L -29.908 19.998 L -29.785 19.923 L -29.661 19.852 L -29.534 19.785 L -29.405 19.721 L -29.275 19.660 L -29.142 19.604 L -29.008 19.551 L -28.873 19.502 L -28.737 19.458 L -28.601 19.417 L -28.462 19.380 L -28.322 19.347 L -28.183 19.319 L -28.043 19.294 L -27.900 19.273 L -27.760 19.257 L -27.617 19.244 L -27.482 19.236 L -27.318 19.231 L -15.612 19.231 A 5.000 5.000 0 0 1 -13.069 19.968 A 0.500 0.500 0 0 0 -12.854 20.029 L -12.255 20.031 A 1.093 1.093 0 0 1 -11.200 21.092 L -11.199 21.200 L -11.195 21.277 L -11.188 21.355 L -11.178 21.431 L -11.166 21.508 L -11.150 21.583 L -11.131 21.658 L -11.110 21.732 L -11.085 21.806 L -11.058 21.879 L -11.028 21.950 L -10.995 22.021 L -10.959 22.090 L -10.921 22.157 L -10.880 22.223 L -10.837 22.287 L -10.791 22.350 L -10.057 23.274 L -9.965 23.384 L -9.869 23.491 A 5.017 5.017 0 0 0 -6.246 25.120 L -1.287 25.120 A 0.800 0.800 0 0 0 -0.501 24.348 L -0.501 20.528 A 1.366 1.366 0 0 0 -1.853 19.200 L -3.117 19.199 L -3.180 19.192 L -3.238 19.178 L -3.295 19.158 L -3.349 19.130 L -3.399 19.095 L -3.445 19.055 L -4.117 18.383 L -4.155 18.336 L -4.188 18.284 L -4.214 18.229 L -4.233 18.171 L -4.245 18.111 L -4.250 18.050 L -4.249 14.326 L -4.242 14.266 L -4.227 14.206 L -4.204 14.149 L -4.176 14.095 L -4.140 14.045 L -4.093 13.993 L -3.433 13.333 A 0.500 0.500 0 0 1 -3.117 13.201 L -2.190 13.200 A 0.800 0.800 0 0 0 -1.400 12.402 L -1.399 1.647 L -1.324 1.613 L -1.252 1.572 L -1.184 1.523 L -1.121 1.466 L -1.065 1.404 L -1.016 1.337 L -0.974 1.265 L -0.940 1.188 L -0.914 1.108 L -0.896 1.026 L -0.887 0.943 L -0.887 0.485 L -0.889 0.443 A 0.800 0.800 0 0 0 -1.186 -0.113 L -1.186 -1.800 L 0.900 -1.800 L 0.901 -1.721 L 0.908 -1.637 L 0.924 -1.554 L 0.949 -1.474 L 0.982 -1.397 L 1.023 -1.324 L 1.071 -1.255 L 1.127 -1.192 L 1.189 -1.135 L 1.256 -1.084 L 1.328 -1.042 L 1.404 -1.007 L 1.482 -0.980 L 1.563 -0.962 L 1.639 -0.952 L 1.736 -0.950 L 2.162 -0.950 A 0.801 0.801 0 0 0 3.000 -1.734 L 3.000 -1.799 L 67.825 -1.799 L 67.825 -1.423 A 0.800 0.800 0 0 0 68.616 -0.650 L 72.593 -0.649 L 74.200 0.279 L 74.200 2.317 L 74.137 2.373 L 74.081 2.435 L 74.031 2.502 L 73.989 2.575 L 73.954 2.651 L 73.928 2.731 L 73.910 2.813 L 73.901 2.896 L 73.900 4.503 L 73.902 4.580 L 73.906 4.658 A 2.000 2.000 0 0 0 74.400 5.823 L 74.400 7.477 A 0.800 0.800 0 0 0 75.171 8.250 L 77.174 8.251 L 77.205 8.258 L 77.235 8.269 L 77.264 8.286 L 77.289 8.307 L 77.311 8.331 L 77.329 8.360 L 77.341 8.391 L 77.348 8.424 L 77.350 8.440 L 77.349 10.492 A 0.200 0.200 0 0 1 77.163 10.675 L 73.433 10.675 A 0.800 0.800 0 0 0 72.651 11.446 L 72.650 13.926 A 0.800 0.800 0 0 0 73.433 14.700 L 77.963 14.700 L 77.997 14.706 L 78.028 14.716 L 78.057 14.731 L 78.083 14.751 L 78.105 14.774 L 78.124 14.801 L 78.138 14.831 L 78.147 14.863 L 78.150 14.896 L 78.150 24.360 L 78.148 24.377 A 0.200 0.200 0 0 1 77.955 24.550 L 73.396 24.552 L 73.323 24.560 L 73.243 24.577 L 73.165 24.603 L 73.089 24.636 L 73.017 24.678 L 72.949 24.726 L 72.886 24.782 L 72.830 24.845 L 72.781 24.912 L 72.738 24.984 L 72.704 25.061 L 72.678 25.141 L 72.660 25.222 L 72.651 25.306 L 72.651 27.369 A 0.800 0.800 0 0 0 73.445 28.125 L 77.172 28.126 L 77.202 28.132 L 77.234 28.143 L 77.261 28.159 L 77.287 28.179 L 77.309 28.203 L 77.326 28.230 L 77.339 28.260 L 77.347 28.292 L 77.350 28.325 L 77.350 30.353 A 0.200 0.200 0 0 1 77.165 30.549 L 75.191 30.550 A 0.800 0.800 0 0 0 74.400 31.324 L 74.400 33.577 L 74.321 33.672 L 74.275 33.735 L 74.231 33.799 L 74.189 33.864 L 74.150 33.931 L 74.114 34.000 L 74.080 34.070 L 74.050 34.141 L 74.022 34.213 L 73.996 34.287 L 73.974 34.361 L 73.955 34.436 L 73.938 34.512 L 73.924 34.588 L 73.914 34.665 L 73.906 34.742 L 73.902 34.819 L 73.900 34.897 L 73.900 36.470 L 73.902 36.511 A 0.800 0.800 0 0 0 74.200 37.084 L 74.199 39.122 L 70.601 41.200 L 63.772 41.200 A 0.800 0.800 0 0 0 63.100 41.600 L -12.511 41.600 L -12.540 41.596 L -12.556 41.592 Z M 68.784 4.694 L 68.860 4.700 L 69.340 4.700 A 0.700 0.700 0 0 0 69.345 3.300 L 68.855 3.300 A 0.700 0.700 0 0 0 68.784 4.694 Z" class="board-outline" fill-rule="evenodd"/>
+    </g>
+    <g class="components">
+      <rect x="8.434" y="37.927" width="1.0" height="1.0" class="component"/>
+      <text x="8.934" y="39.927" class="component-label" transform="translate(8.934 39.927) scale(-1,1) translate(-8.934 -39.927)">TP21</text>
+      <rect x="20.835" y="9.415" width="1.0" height="1.0" class="component" transform="rotate(90.0 21.335 9.915)"/>
+      <text x="21.335" y="11.415" class="component-label" transform="translate(21.335 11.415) scale(-1,1) translate(-21.335 -11.415)">R111</text>
+      <rect x="67.105" y="22.930" width="1.0" height="1.0" class="component"/>
+      <text x="67.605" y="24.930" class="component-label" transform="translate(67.605 24.930) scale(-1,1) translate(-67.605 -24.930)">TP19</text>
+      <rect x="57.035" y="33.890" width="1.0" height="1.0" class="component"/>
+      <text x="57.535" y="35.890" class="component-label" transform="translate(57.535 35.890) scale(-1,1) translate(-57.535 -35.890)">R121</text>
+      <rect x="70.325" y="6.850" width="1.0" height="1.0" class="component" transform="rotate(270.0 70.825 7.350)"/>
+      <text x="70.825" y="8.850" class="component-label" transform="translate(70.825 8.850) scale(-1,1) translate(-70.825 -8.850)">R131</text>
+      <rect x="57.080" y="21.120" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.580 21.620)"/>
+      <text x="57.580" y="23.120" class="component-label" transform="translate(57.580 23.120) scale(-1,1) translate(-57.580 -23.120)">R119</text>
+      <rect x="68.915" y="23.300" width="1.0" height="1.0" class="component" transform="rotate(180.0 69.415 23.800)"/>
+      <text x="69.415" y="25.300" class="component-label" transform="translate(69.415 25.300) scale(-1,1) translate(-69.415 -25.300)">R159</text>
+      <rect x="70.985" y="20.515" width="1.0" height="1.0" class="component" transform="rotate(180.0 71.485 21.015)"/>
+      <text x="71.485" y="22.515" class="component-label" transform="translate(71.485 22.515) scale(-1,1) translate(-71.485 -22.515)">C269</text>
+      <rect x="7.184" y="40.092" width="1.0" height="1.0" class="component" transform="rotate(180.0 7.684 40.592)"/>
+      <text x="7.684" y="42.092" class="component-label" transform="translate(7.684 42.092) scale(-1,1) translate(-7.684 -42.092)">TP22</text>
+      <rect x="20.835" y="27.915" width="1.0" height="1.0" class="component" transform="rotate(90.0 21.335 28.415)"/>
+      <text x="21.335" y="29.915" class="component-label" transform="translate(21.335 29.915) scale(-1,1) translate(-21.335 -29.915)">R112</text>
+      <rect x="39.475" y="7.640" width="1.0" height="1.0" class="component" transform="rotate(180.0 39.975 8.140)"/>
+      <text x="39.975" y="9.640" class="component-label" transform="translate(39.975 9.640) scale(-1,1) translate(-39.975 -9.640)">R122</text>
+      <rect x="10.934" y="37.927" width="1.0" height="1.0" class="component" transform="rotate(180.0 11.434 38.427)"/>
+      <text x="11.434" y="39.927" class="component-label" transform="translate(11.434 39.927) scale(-1,1) translate(-11.434 -39.927)">TP23</text>
+      <rect x="20.835" y="10.485" width="1.0" height="1.0" class="component" transform="rotate(270.0 21.335 10.985)"/>
+      <text x="21.335" y="12.485" class="component-label" transform="translate(21.335 12.485) scale(-1,1) translate(-21.335 -12.485)">R113</text>
+      <rect x="25.700" y="39.115" width="1.0" height="1.0" class="component" transform="rotate(180.0 26.200 39.615)"/>
+      <text x="26.200" y="41.115" class="component-label" transform="translate(26.200 41.115) scale(-1,1) translate(-26.200 -41.115)">R114</text>
+      <rect x="13.483" y="33.240" width="1.0" height="1.0" class="component" transform="rotate(180.0 13.983 33.740)"/>
+      <text x="13.983" y="35.240" class="component-label" transform="translate(13.983 35.240) scale(-1,1) translate(-13.983 -35.240)">TP15</text>
+      <rect x="24.685" y="24.975" width="1.0" height="1.0" class="component" transform="rotate(90.0 25.185 25.475)"/>
+      <text x="25.185" y="26.975" class="component-label" transform="translate(25.185 26.975) scale(-1,1) translate(-25.185 -26.975)">R115</text>
+      <rect x="35.038" y="19.200" width="1.0" height="1.0" class="component" transform="rotate(180.0 35.538 19.700)"/>
+      <text x="35.538" y="21.200" class="component-label" transform="translate(35.538 21.200) scale(-1,1) translate(-35.538 -21.200)">S1</text>
+      <rect x="-76.310" y="33.030" width="1.0" height="1.0" class="component"/>
+      <text x="-75.810" y="35.030" class="component-label" transform="translate(-75.810 35.030) scale(-1,1) translate(75.810 -35.030)">X1</text>
+      <rect x="13.483" y="35.765" width="1.0" height="1.0" class="component" transform="rotate(180.0 13.983 36.265)"/>
+      <text x="13.983" y="37.765" class="component-label" transform="translate(13.983 37.765) scale(-1,1) translate(-13.983 -37.765)">TP16</text>
+      <rect x="24.685" y="11.225" width="1.0" height="1.0" class="component" transform="rotate(90.0 25.185 11.725)"/>
+      <text x="25.185" y="13.225" class="component-label" transform="translate(25.185 13.225) scale(-1,1) translate(-25.185 -13.225)">R116</text>
+      <rect x="12.376" y="25.900" width="1.0" height="1.0" class="component" transform="rotate(180.0 12.876 26.400)"/>
+      <text x="12.876" y="27.900" class="component-label" transform="translate(12.876 27.900) scale(-1,1) translate(-12.876 -27.900)">S2</text>
+      <rect x="61.400" y="19.200" width="1.0" height="1.0" class="component" transform="rotate(180.0 61.900 19.700)"/>
+      <text x="61.900" y="21.200" class="component-label" transform="translate(61.900 21.200) scale(-1,1) translate(-61.900 -21.200)">S3</text>
+      <rect x="72.545" y="6.500" width="1.0" height="1.0" class="component"/>
+      <text x="73.045" y="8.500" class="component-label" transform="translate(73.045 8.500) scale(-1,1) translate(-73.045 -8.500)">B4</text>
+      <rect x="52.542" y="19.200" width="1.0" height="1.0" class="component" transform="rotate(180.0 53.042 19.700)"/>
+      <text x="53.042" y="21.200" class="component-label" transform="translate(53.042 21.200) scale(-1,1) translate(-53.042 -21.200)">S4</text>
+      <rect x="6.675" y="4.800" width="1.0" height="1.0" class="component" transform="rotate(180.0 7.175 5.300)"/>
+      <text x="7.175" y="6.800" class="component-label" transform="translate(7.175 6.800) scale(-1,1) translate(-7.175 -6.800)">S5</text>
+      <rect x="39.475" y="33.270" width="1.0" height="1.0" class="component" transform="rotate(180.0 39.975 33.770)"/>
+      <text x="39.975" y="35.270" class="component-label" transform="translate(39.975 35.270) scale(-1,1) translate(-39.975 -35.270)">R117</text>
+      <rect x="18.075" y="33.600" width="1.0" height="1.0" class="component" transform="rotate(180.0 18.575 34.100)"/>
+      <text x="18.575" y="35.600" class="component-label" transform="translate(18.575 35.600) scale(-1,1) translate(-18.575 -35.600)">S6</text>
+      <rect x="71.095" y="6.950" width="1.0" height="1.0" class="component"/>
+      <text x="71.595" y="8.950" class="component-label" transform="translate(71.595 8.950) scale(-1,1) translate(-71.595 -8.950)">C12</text>
+      <rect x="70.760" y="15.820" width="1.0" height="1.0" class="component"/>
+      <text x="71.260" y="17.820" class="component-label" transform="translate(71.260 17.820) scale(-1,1) translate(-71.260 -17.820)">L10</text>
+      <rect x="70.760" y="18.500" width="1.0" height="1.0" class="component"/>
+      <text x="71.260" y="20.500" class="component-label" transform="translate(71.260 20.500) scale(-1,1) translate(-71.260 -20.500)">L7</text>
+      <rect x="67.105" y="15.470" width="1.0" height="1.0" class="component"/>
+      <text x="67.605" y="17.470" class="component-label" transform="translate(67.605 17.470) scale(-1,1) translate(-67.605 -17.470)">TP1</text>
+      <rect x="4.659" y="40.092" width="1.0" height="1.0" class="component"/>
+      <text x="5.159" y="42.092" class="component-label" transform="translate(5.159 42.092) scale(-1,1) translate(-5.159 -42.092)">TP2</text>
+      <rect x="70.585" y="17.830" width="1.0" height="1.0" class="component"/>
+      <text x="71.085" y="19.830" class="component-label" transform="translate(71.085 19.830) scale(-1,1) translate(-71.085 -19.830)">C14</text>
+      <rect x="43.886" y="19.200" width="1.0" height="1.0" class="component" transform="rotate(180.0 44.386 19.700)"/>
+      <text x="44.386" y="21.200" class="component-label" transform="translate(44.386 21.200) scale(-1,1) translate(-44.386 -21.200)">S7</text>
+      <rect x="18.075" y="4.800" width="1.0" height="1.0" class="component" transform="rotate(180.0 18.575 5.300)"/>
+      <text x="18.575" y="6.800" class="component-label" transform="translate(18.575 6.800) scale(-1,1) translate(-18.575 -6.800)">S10</text>
+      <rect x="5.205" y="28.450" width="1.0" height="1.0" class="component" transform="rotate(270.0 5.705 28.950)"/>
+      <text x="5.705" y="30.450" class="component-label" transform="translate(5.705 30.450) scale(-1,1) translate(-5.705 -30.450)">V10</text>
+      <rect x="66.035" y="37.205" width="1.0" height="1.0" class="component" transform="rotate(315.0 66.535 37.705)"/>
+      <text x="66.535" y="39.205" class="component-label" transform="translate(66.535 39.205) scale(-1,1) translate(-66.535 -39.205)">V7</text>
+      <rect x="52.542" y="6.500" width="1.0" height="1.0" class="component" transform="rotate(180.0 53.042 7.000)"/>
+      <text x="53.042" y="8.500" class="component-label" transform="translate(53.042 8.500) scale(-1,1) translate(-53.042 -8.500)">S11</text>
+      <rect x="70.570" y="16.490" width="1.0" height="1.0" class="component"/>
+      <text x="71.070" y="18.490" class="component-label" transform="translate(71.070 18.490) scale(-1,1) translate(-71.070 -18.490)">C15</text>
+      <rect x="5.200" y="9.950" width="1.0" height="1.0" class="component" transform="rotate(270.0 5.700 10.450)"/>
+      <text x="5.700" y="11.950" class="component-label" transform="translate(5.700 11.950) scale(-1,1) translate(-5.700 -11.950)">V11</text>
+      <rect x="26.401" y="32.747" width="1.0" height="1.0" class="component" transform="rotate(180.0 26.901 33.247)"/>
+      <text x="26.901" y="34.747" class="component-label" transform="translate(26.901 34.747) scale(-1,1) translate(-26.901 -34.747)">S12</text>
+      <rect x="70.500" y="22.790" width="1.0" height="1.0" class="component" transform="rotate(90.0 71.000 23.290)"/>
+      <text x="71.000" y="24.790" class="component-label" transform="translate(71.000 24.790) scale(-1,1) translate(-71.000 -24.790)">N14</text>
+      <rect x="19.850" y="28.450" width="1.0" height="1.0" class="component" transform="rotate(270.0 20.350 28.950)"/>
+      <text x="20.350" y="30.450" class="component-label" transform="translate(20.350 30.450) scale(-1,1) translate(-20.350 -30.450)">V12</text>
+      <rect x="11.318" y="34.515" width="1.0" height="1.0" class="component" transform="rotate(180.0 11.818 35.015)"/>
+      <text x="11.818" y="36.515" class="component-label" transform="translate(11.818 36.515) scale(-1,1) translate(-11.818 -36.515)">TP5</text>
+      <rect x="61.400" y="31.900" width="1.0" height="1.0" class="component" transform="rotate(180.0 61.900 32.400)"/>
+      <text x="61.900" y="33.900" class="component-label" transform="translate(61.900 33.900) scale(-1,1) translate(-61.900 -33.900)">S13</text>
+      <rect x="69.795" y="6.850" width="1.0" height="1.0" class="component" transform="rotate(270.0 70.295 7.350)"/>
+      <text x="70.295" y="8.850" class="component-label" transform="translate(70.295 8.850) scale(-1,1) translate(-70.295 -8.850)">C17</text>
+      <rect x="11.318" y="31.990" width="1.0" height="1.0" class="component" transform="rotate(180.0 11.818 32.490)"/>
+      <text x="11.818" y="33.990" class="component-label" transform="translate(11.818 33.990) scale(-1,1) translate(-11.818 -33.990)">TP6</text>
+      <rect x="19.850" y="9.950" width="1.0" height="1.0" class="component" transform="rotate(90.0 20.350 10.450)"/>
+      <text x="20.350" y="11.950" class="component-label" transform="translate(20.350 11.950) scale(-1,1) translate(-20.350 -11.950)">V13</text>
+      <rect x="35.038" y="6.500" width="1.0" height="1.0" class="component"/>
+      <text x="35.538" y="8.500" class="component-label" transform="translate(35.538 8.500) scale(-1,1) translate(-35.538 -8.500)">S14</text>
+      <rect x="25.700" y="37.500" width="1.0" height="1.0" class="component" transform="rotate(90.0 26.200 38.000)"/>
+      <text x="26.200" y="39.500" class="component-label" transform="translate(26.200 39.500) scale(-1,1) translate(-26.200 -39.500)">V14</text>
+      <rect x="61.400" y="6.500" width="1.0" height="1.0" class="component" transform="rotate(180.0 61.900 7.000)"/>
+      <text x="61.900" y="8.500" class="component-label" transform="translate(61.900 8.500) scale(-1,1) translate(-61.900 -8.500)">S15</text>
+      <rect x="25.700" y="24.975" width="1.0" height="1.0" class="component" transform="rotate(270.0 26.200 25.475)"/>
+      <text x="26.200" y="26.975" class="component-label" transform="translate(26.200 26.975) scale(-1,1) translate(-26.200 -26.975)">V15</text>
+      <rect x="43.886" y="31.900" width="1.0" height="1.0" class="component"/>
+      <text x="44.386" y="33.900" class="component-label" transform="translate(44.386 33.900) scale(-1,1) translate(-44.386 -33.900)">S16</text>
+      <rect x="70.760" y="19.845" width="1.0" height="1.0" class="component"/>
+      <text x="71.260" y="21.845" class="component-label" transform="translate(71.260 21.845) scale(-1,1) translate(-71.260 -21.845)">L8</text>
+      <rect x="25.700" y="11.225" width="1.0" height="1.0" class="component" transform="rotate(270.0 26.200 11.725)"/>
+      <text x="26.200" y="13.225" class="component-label" transform="translate(26.200 13.225) scale(-1,1) translate(-26.200 -13.225)">V16</text>
+      <rect x="6.675" y="33.600" width="1.0" height="1.0" class="component" transform="rotate(180.0 7.175 34.100)"/>
+      <text x="7.175" y="35.600" class="component-label" transform="translate(7.175 35.600) scale(-1,1) translate(-7.175 -35.600)">S17</text>
+      <rect x="69.470" y="13.160" width="1.0" height="1.0" class="component" transform="rotate(180.0 69.970 13.660)"/>
+      <text x="69.970" y="15.160" class="component-label" transform="translate(69.970 15.160) scale(-1,1) translate(-69.970 -15.160)">L21</text>
+      <rect x="39.475" y="31.655" width="1.0" height="1.0" class="component" transform="rotate(90.0 39.975 32.155)"/>
+      <text x="39.975" y="33.655" class="component-label" transform="translate(39.975 33.655) scale(-1,1) translate(-39.975 -33.655)">V17</text>
+      <rect x="12.376" y="12.500" width="1.0" height="1.0" class="component" transform="rotate(180.0 12.876 13.000)"/>
+      <text x="12.876" y="14.500" class="component-label" transform="translate(12.876 14.500) scale(-1,1) translate(-12.876 -14.500)">S20</text>
+      <rect x="35.038" y="31.900" width="1.0" height="1.0" class="component" transform="rotate(180.0 35.538 32.400)"/>
+      <text x="35.538" y="33.900" class="component-label" transform="translate(35.538 33.900) scale(-1,1) translate(-35.538 -33.900)">S18</text>
+      <rect x="26.401" y="5.653" width="1.0" height="1.0" class="component" transform="rotate(180.0 26.901 6.153)"/>
+      <text x="26.901" y="7.653" class="component-label" transform="translate(26.901 7.653) scale(-1,1) translate(-26.901 -7.653)">S8</text>
+      <rect x="39.475" y="19.455" width="1.0" height="1.0" class="component" transform="rotate(90.0 39.975 19.955)"/>
+      <text x="39.975" y="21.455" class="component-label" transform="translate(39.975 21.455) scale(-1,1) translate(-39.975 -21.455)">V18</text>
+      <rect x="57.035" y="6.805" width="1.0" height="1.0" class="component" transform="rotate(90.0 57.535 7.305)"/>
+      <text x="57.535" y="8.805" class="component-label" transform="translate(57.535 8.805) scale(-1,1) translate(-57.535 -8.805)">V20</text>
+      <rect x="39.475" y="6.025" width="1.0" height="1.0" class="component" transform="rotate(90.0 39.975 6.525)"/>
+      <text x="39.975" y="8.025" class="component-label" transform="translate(39.975 8.025) scale(-1,1) translate(-39.975 -8.025)">V8</text>
+      <rect x="19.076" y="19.200" width="1.0" height="1.0" class="component" transform="rotate(180.0 19.576 19.700)"/>
+      <text x="19.576" y="21.200" class="component-label" transform="translate(19.576 21.200) scale(-1,1) translate(-19.576 -21.200)">S19</text>
+      <rect x="5.676" y="19.200" width="1.0" height="1.0" class="component" transform="rotate(180.0 6.176 19.700)"/>
+      <text x="6.176" y="21.200" class="component-label" transform="translate(6.176 21.200) scale(-1,1) translate(-6.176 -21.200)">S21</text>
+      <rect x="57.035" y="19.505" width="1.0" height="1.0" class="component" transform="rotate(90.0 57.535 20.005)"/>
+      <text x="57.535" y="21.505" class="component-label" transform="translate(57.535 21.505) scale(-1,1) translate(-57.535 -21.505)">V19</text>
+      <rect x="12.376" y="19.200" width="1.0" height="1.0" class="component" transform="rotate(180.0 12.876 19.700)"/>
+      <text x="12.876" y="21.200" class="component-label" transform="translate(12.876 21.200) scale(-1,1) translate(-12.876 -21.200)">S22</text>
+      <rect x="69.452" y="33.838" width="1.0" height="1.0" class="component" transform="rotate(90.0 69.952 34.338)"/>
+      <text x="69.952" y="35.838" class="component-label" transform="translate(69.952 35.838) scale(-1,1) translate(-69.952 -35.838)">S23</text>
+      <rect x="52.542" y="31.900" width="1.0" height="1.0" class="component" transform="rotate(180.0 53.042 32.400)"/>
+      <text x="53.042" y="33.900" class="component-label" transform="translate(53.042 33.900) scale(-1,1) translate(-53.042 -33.900)">S24</text>
+      <rect x="26.401" y="19.200" width="1.0" height="1.0" class="component" transform="rotate(180.0 26.901 19.700)"/>
+      <text x="26.901" y="21.200" class="component-label" transform="translate(26.901 21.200) scale(-1,1) translate(-26.901 -21.200)">S25</text>
+      <rect x="70.760" y="17.160" width="1.0" height="1.0" class="component"/>
+      <text x="71.260" y="19.160" class="component-label" transform="translate(71.260 19.160) scale(-1,1) translate(-71.260 -19.160)">L9</text>
+      <rect x="69.530" y="12.440" width="1.0" height="1.0" class="component" transform="rotate(180.0 70.030 12.940)"/>
+      <text x="70.030" y="14.440" class="component-label" transform="translate(70.030 14.440) scale(-1,1) translate(-70.030 -14.440)">V26</text>
+      <rect x="43.886" y="6.500" width="1.0" height="1.0" class="component" transform="rotate(180.0 44.386 7.000)"/>
+      <text x="44.386" y="8.500" class="component-label" transform="translate(44.386 8.500) scale(-1,1) translate(-44.386 -8.500)">S9</text>
+      <rect x="67.105" y="19.200" width="1.0" height="1.0" class="component"/>
+      <text x="67.605" y="21.200" class="component-label" transform="translate(67.605 21.200) scale(-1,1) translate(-67.605 -21.200)">TP20</text>
+      <rect x="57.035" y="32.275" width="1.0" height="1.0" class="component" transform="rotate(90.0 57.535 32.775)"/>
+      <text x="57.535" y="34.275" class="component-label" transform="translate(57.535 34.275) scale(-1,1) translate(-57.535 -34.275)">V9</text>
+      <rect x="20.835" y="28.985" width="1.0" height="1.0" class="component" transform="rotate(270.0 21.335 29.485)"/>
+      <text x="21.335" y="30.985" class="component-label" transform="translate(21.335 30.985) scale(-1,1) translate(-21.335 -30.985)">R110</text>
+      <rect x="68.915" y="22.765" width="1.0" height="1.0" class="component"/>
+      <text x="69.415" y="24.765" class="component-label" transform="translate(69.415 24.765) scale(-1,1) translate(-69.415 -24.765)">C150</text>
+      <rect x="57.035" y="8.420" width="1.0" height="1.0" class="component"/>
+      <text x="57.535" y="10.420" class="component-label" transform="translate(57.535 10.420) scale(-1,1) translate(-57.535 -10.420)">R120</text>
+      <rect x="39.475" y="21.070" width="1.0" height="1.0" class="component" transform="rotate(180.0 39.975 21.570)"/>
+      <text x="39.975" y="23.070" class="component-label" transform="translate(39.975 23.070) scale(-1,1) translate(-39.975 -23.070)">R118</text>
+      <rect x="68.915" y="23.850" width="1.0" height="1.0" class="component" transform="rotate(180.0 69.415 24.350)"/>
+      <text x="69.415" y="25.850" class="component-label" transform="translate(69.415 25.850) scale(-1,1) translate(-69.415 -25.850)">R160</text>
+      <rect x="70.545" y="19.175" width="1.0" height="1.0" class="component"/>
+      <text x="71.045" y="21.175" class="component-label" transform="translate(71.045 21.175) scale(-1,1) translate(-71.045 -21.175)">C268</text>
+    </g>
+  </g>
+  <style>
+            .board-outline { fill: #1A4B1A; stroke: black; stroke-width: 0.1; }
+            .board-hole { fill: white; stroke: black; stroke-width: 0.1; }
+            .component { fill: orange; stroke: darkorange; stroke-width: 0.1; }
+            .component-label { font-family: Arial, sans-serif; font-size: 1px; text-anchor: middle; fill: black; }
+        </style>
+</svg>

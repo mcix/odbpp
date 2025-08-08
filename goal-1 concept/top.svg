@@ -1,0 +1,1234 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="17334.99674999958" height="5339.939249999999" viewBox="-90.20000749999978 -6.7996824999928 173.34996749999578 53.3993925">
+  <style>
+            .board-outline { fill: #1A4B1A; stroke: black; stroke-width: 0.1; }
+            .board-hole { fill: white; stroke: black; stroke-width: 0.1; }
+            .component { fill: orange; stroke: darkorange; stroke-width: 0.1; }
+            .component-label { font-family: Arial, sans-serif; font-size: 1px; text-anchor: middle; fill: black; }
+        </style>
+  <g>
+    <path d="M -12.556 41.592 A 0.200 0.200 0 0 1 -12.700 41.410 L -12.700 39.027 A 0.200 0.200 0 0 0 -12.887 38.830 L -13.009 38.830 A 0.200 0.200 0 0 1 -13.200 38.641 L -13.200 37.522 A 3.300 3.300 0 0 0 -14.200 35.163 L -14.201 27.549 L -14.204 27.472 L -14.210 27.395 L -14.220 27.318 L -14.232 27.242 L -14.247 27.166 L -14.265 27.091 L -14.286 27.016 L -14.310 26.943 L -14.337 26.870 L -14.367 26.798 L -14.399 26.728 L -14.434 26.659 L -14.472 26.591 L -14.512 26.525 L -14.555 26.460 L -14.601 26.397 L -15.357 25.447 L -15.408 25.389 L -15.461 25.332 L -15.516 25.278 L -15.573 25.226 L -15.633 25.175 L -15.694 25.128 L -15.757 25.083 L -15.821 25.040 L -15.887 25.000 L -15.955 24.963 L -16.024 24.928 L -16.095 24.895 L -16.166 24.866 L -16.239 24.840 L -16.311 24.816 L -16.385 24.795 L -16.459 24.777 L -16.535 24.762 L -16.609 24.750 L -16.681 24.741 L -16.754 24.735 L -16.859 24.730 L -25.294 24.730 L -25.428 24.733 L -25.566 24.740 L -25.703 24.751 L -25.846 24.766 L -25.986 24.786 L -26.125 24.808 L -26.265 24.836 L -26.404 24.867 L -26.542 24.902 L -26.680 24.941 L -26.817 24.984 L -26.952 25.031 L -27.086 25.082 L -27.218 25.137 L -27.349 25.195 L -27.478 25.257 L -27.605 25.323 L -27.731 25.393 L -27.854 25.466 L -27.976 25.543 L -28.095 25.623 L -28.212 25.707 L -28.326 25.794 L -28.438 25.884 L -28.547 25.977 L -28.699 26.115 L -29.022 26.418 L -29.339 26.725 L -29.651 27.038 L -29.959 27.355 L -30.260 27.677 L -30.556 28.004 L -30.847 28.335 L -31.132 28.670 L -31.411 29.010 L -31.685 29.354 L -31.953 29.703 L -32.216 30.056 L -32.472 30.412 L -32.723 30.773 L -32.967 31.137 L -33.205 31.504 L -33.437 31.874 L -33.663 32.249 L -33.858 32.580 A 5.000 5.000 0 0 1 -38.084 34.980 L -44.743 34.980 A 3.000 3.000 0 0 0 -46.095 35.328 L -46.344 35.467 L -46.505 35.551 L -46.669 35.632 L -46.834 35.708 L -47.001 35.781 L -47.170 35.849 L -47.341 35.912 L -47.513 35.971 L -47.686 36.026 L -47.860 36.076 L -48.036 36.122 L -48.213 36.163 L -48.391 36.200 L -48.570 36.232 L -48.747 36.259 L -48.924 36.282 L -49.102 36.301 L -49.280 36.315 L -49.459 36.324 L -49.698 36.330 L -51.802 36.330 L -51.969 36.327 L -52.146 36.319 L -52.323 36.307 A 7.150 7.150 0 0 1 -55.866 35.026 L -56.128 34.835 L -56.212 34.777 L -56.298 34.723 L -56.386 34.671 L -56.475 34.622 L -56.567 34.576 L -56.659 34.533 L -56.753 34.494 L -56.848 34.458 L -56.945 34.425 L -57.041 34.396 L -57.138 34.370 L -57.236 34.347 L -57.336 34.327 L -57.434 34.311 L -57.532 34.298 L -57.632 34.289 L -57.722 34.283 L -57.882 34.280 A 4.250 4.250 0 0 0 -61.750 36.844 L -61.829 37.034 L -61.862 37.105 L -61.897 37.174 L -61.935 37.241 L -61.975 37.307 L -62.019 37.372 L -62.064 37.435 L -62.112 37.496 L -62.162 37.555 L -62.215 37.612 L -62.270 37.667 L -62.326 37.720 L -62.385 37.771 L -62.446 37.819 L -62.508 37.865 L -62.573 37.908 L -62.639 37.949 L -62.706 37.987 L -62.774 38.023 L -62.844 38.056 L -62.916 38.086 L -62.988 38.114 L -63.062 38.138 L -63.136 38.160 L -63.212 38.179 L -63.287 38.195 L -63.362 38.208 L -63.439 38.218 L -63.515 38.225 L -63.628 38.230 L -84.717 38.230 A 0.500 0.500 0 0 1 -85.200 37.736 L -85.200 29.330 A 0.500 0.500 0 0 1 -84.721 28.830 L -58.834 28.830 A 9.750 9.750 0 0 1 -54.541 29.359 L -54.407 29.411 L -54.274 29.467 L -54.143 29.526 L -54.014 29.590 L -53.887 29.657 L -53.762 29.727 L -53.639 29.801 L -53.519 29.879 L -53.400 29.960 L -53.284 30.045 L -53.170 30.132 L -53.059 30.223 L -52.951 30.317 L -52.834 30.423 L -52.782 30.467 L -52.728 30.508 L -52.672 30.548 L -52.615 30.584 L -52.557 30.619 L -52.496 30.651 L -52.435 30.681 L -52.371 30.708 L -52.308 30.732 L -52.245 30.754 L -52.179 30.773 L -52.113 30.789 L -52.048 30.803 L -51.981 30.814 L -51.913 30.822 L -51.793 30.829 L -49.706 30.829 L -49.639 30.826 L -49.573 30.821 A 1.650 1.650 0 0 0 -48.762 30.502 L -48.642 30.414 A 5.000 5.000 0 0 1 -45.758 29.480 L -39.486 29.479 L -39.412 29.476 L -39.340 29.471 L -39.264 29.462 L -39.187 29.450 L -39.112 29.435 L -39.037 29.417 L -38.964 29.397 L -38.890 29.373 L -38.818 29.347 L -38.746 29.318 L -38.676 29.286 L -38.606 29.252 L -38.538 29.214 L -38.471 29.174 L -38.406 29.131 L -38.343 29.086 L -38.281 29.039 L -38.221 28.989 L -38.164 28.937 L -38.108 28.882 L -38.054 28.825 L -38.003 28.767 L -37.955 28.707 L -37.908 28.644 L -37.864 28.580 L -37.585 28.150 L -37.311 27.740 L -37.030 27.333 L -36.743 26.930 L -36.449 26.531 L -36.149 26.136 L -35.843 25.746 L -35.531 25.360 L -35.213 24.978 L -34.889 24.601 L -34.559 24.229 L -34.222 23.862 L -33.881 23.499 L -33.533 23.142 L -33.180 22.789 L -32.821 22.442 L -32.457 22.100 L -32.088 21.764 L -31.713 21.433 L -31.333 21.107 L -30.947 20.787 L -30.557 20.473 L -30.262 20.243 L -30.146 20.158 L -30.029 20.076 L -29.908 19.998 L -29.785 19.923 L -29.661 19.852 L -29.534 19.785 L -29.405 19.721 L -29.275 19.660 L -29.142 19.604 L -29.008 19.551 L -28.873 19.502 L -28.737 19.458 L -28.601 19.417 L -28.462 19.380 L -28.322 19.347 L -28.183 19.319 L -28.043 19.294 L -27.900 19.273 L -27.760 19.257 L -27.617 19.244 L -27.482 19.236 L -27.318 19.231 L -15.612 19.231 A 5.000 5.000 0 0 1 -13.069 19.968 A 0.500 0.500 0 0 0 -12.854 20.029 L -12.255 20.031 A 1.093 1.093 0 0 1 -11.200 21.092 L -11.199 21.200 L -11.195 21.277 L -11.188 21.355 L -11.178 21.431 L -11.166 21.508 L -11.150 21.583 L -11.131 21.658 L -11.110 21.732 L -11.085 21.806 L -11.058 21.879 L -11.028 21.950 L -10.995 22.021 L -10.959 22.090 L -10.921 22.157 L -10.880 22.223 L -10.837 22.287 L -10.791 22.350 L -10.057 23.274 L -9.965 23.384 L -9.869 23.491 A 5.017 5.017 0 0 0 -6.246 25.120 L -1.287 25.120 A 0.800 0.800 0 0 0 -0.501 24.348 L -0.501 20.528 A 1.366 1.366 0 0 0 -1.853 19.200 L -3.117 19.199 L -3.180 19.192 L -3.238 19.178 L -3.295 19.158 L -3.349 19.130 L -3.399 19.095 L -3.445 19.055 L -4.117 18.383 L -4.155 18.336 L -4.188 18.284 L -4.214 18.229 L -4.233 18.171 L -4.245 18.111 L -4.250 18.050 L -4.249 14.326 L -4.242 14.266 L -4.227 14.206 L -4.204 14.149 L -4.176 14.095 L -4.140 14.045 L -4.093 13.993 L -3.433 13.333 A 0.500 0.500 0 0 1 -3.117 13.201 L -2.190 13.200 A 0.800 0.800 0 0 0 -1.400 12.402 L -1.399 1.647 L -1.324 1.613 L -1.252 1.572 L -1.184 1.523 L -1.121 1.466 L -1.065 1.404 L -1.016 1.337 L -0.974 1.265 L -0.940 1.188 L -0.914 1.108 L -0.896 1.026 L -0.887 0.943 L -0.887 0.485 L -0.889 0.443 A 0.800 0.800 0 0 0 -1.186 -0.113 L -1.186 -1.800 L 0.900 -1.800 L 0.901 -1.721 L 0.908 -1.637 L 0.924 -1.554 L 0.949 -1.474 L 0.982 -1.397 L 1.023 -1.324 L 1.071 -1.255 L 1.127 -1.192 L 1.189 -1.135 L 1.256 -1.084 L 1.328 -1.042 L 1.404 -1.007 L 1.482 -0.980 L 1.563 -0.962 L 1.639 -0.952 L 1.736 -0.950 L 2.162 -0.950 A 0.801 0.801 0 0 0 3.000 -1.734 L 3.000 -1.799 L 67.825 -1.799 L 67.825 -1.423 A 0.800 0.800 0 0 0 68.616 -0.650 L 72.593 -0.649 L 74.200 0.279 L 74.200 2.317 L 74.137 2.373 L 74.081 2.435 L 74.031 2.502 L 73.989 2.575 L 73.954 2.651 L 73.928 2.731 L 73.910 2.813 L 73.901 2.896 L 73.900 4.503 L 73.902 4.580 L 73.906 4.658 A 2.000 2.000 0 0 0 74.400 5.823 L 74.400 7.477 A 0.800 0.800 0 0 0 75.171 8.250 L 77.174 8.251 L 77.205 8.258 L 77.235 8.269 L 77.264 8.286 L 77.289 8.307 L 77.311 8.331 L 77.329 8.360 L 77.341 8.391 L 77.348 8.424 L 77.350 8.440 L 77.349 10.492 A 0.200 0.200 0 0 1 77.163 10.675 L 73.433 10.675 A 0.800 0.800 0 0 0 72.651 11.446 L 72.650 13.926 A 0.800 0.800 0 0 0 73.433 14.700 L 77.963 14.700 L 77.997 14.706 L 78.028 14.716 L 78.057 14.731 L 78.083 14.751 L 78.105 14.774 L 78.124 14.801 L 78.138 14.831 L 78.147 14.863 L 78.150 14.896 L 78.150 24.360 L 78.148 24.377 A 0.200 0.200 0 0 1 77.955 24.550 L 73.396 24.552 L 73.323 24.560 L 73.243 24.577 L 73.165 24.603 L 73.089 24.636 L 73.017 24.678 L 72.949 24.726 L 72.886 24.782 L 72.830 24.845 L 72.781 24.912 L 72.738 24.984 L 72.704 25.061 L 72.678 25.141 L 72.660 25.222 L 72.651 25.306 L 72.651 27.369 A 0.800 0.800 0 0 0 73.445 28.125 L 77.172 28.126 L 77.202 28.132 L 77.234 28.143 L 77.261 28.159 L 77.287 28.179 L 77.309 28.203 L 77.326 28.230 L 77.339 28.260 L 77.347 28.292 L 77.350 28.325 L 77.350 30.353 A 0.200 0.200 0 0 1 77.165 30.549 L 75.191 30.550 A 0.800 0.800 0 0 0 74.400 31.324 L 74.400 33.577 L 74.321 33.672 L 74.275 33.735 L 74.231 33.799 L 74.189 33.864 L 74.150 33.931 L 74.114 34.000 L 74.080 34.070 L 74.050 34.141 L 74.022 34.213 L 73.996 34.287 L 73.974 34.361 L 73.955 34.436 L 73.938 34.512 L 73.924 34.588 L 73.914 34.665 L 73.906 34.742 L 73.902 34.819 L 73.900 34.897 L 73.900 36.470 L 73.902 36.511 A 0.800 0.800 0 0 0 74.200 37.084 L 74.199 39.122 L 70.601 41.200 L 63.772 41.200 A 0.800 0.800 0 0 0 63.100 41.600 L -12.511 41.600 L -12.540 41.596 L -12.556 41.592 Z M 68.784 4.694 L 68.860 4.700 L 69.340 4.700 A 0.700 0.700 0 0 0 69.345 3.300 L 68.855 3.300 A 0.700 0.700 0 0 0 68.784 4.694 Z" class="board-outline" fill-rule="evenodd"/>
+  </g>
+  <g class="components">
+    <rect x="42.060" y="15.735" width="1.0" height="1.0" class="component" transform="rotate(90.0 42.560 16.235)"/>
+    <text x="42.560" y="17.735" class="component-label">R56</text>
+    <rect x="46.265" y="21.010" width="1.0" height="1.0" class="component"/>
+    <text x="46.765" y="23.010" class="component-label">C62</text>
+    <rect x="42.693" y="23.805" width="1.0" height="1.0" class="component" transform="rotate(180.0 43.193 24.305)"/>
+    <text x="43.193" y="25.805" class="component-label">ST9</text>
+    <rect x="43.975" y="15.730" width="1.0" height="1.0" class="component" transform="rotate(90.0 44.475 16.230)"/>
+    <text x="44.475" y="17.730" class="component-label">R57</text>
+    <rect x="54.135" y="21.555" width="1.0" height="1.0" class="component"/>
+    <text x="54.635" y="23.555" class="component-label">C63</text>
+    <rect x="2.725" y="36.335" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 36.835)"/>
+    <text x="3.225" y="38.335" class="component-label">R60</text>
+    <rect x="2.725" y="35.805" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 36.305)"/>
+    <text x="3.225" y="37.805" class="component-label">R58</text>
+    <rect x="56.720" y="34.550" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.220 35.050)"/>
+    <text x="57.220" y="36.550" class="component-label">C64</text>
+    <rect x="43.445" y="15.730" width="1.0" height="1.0" class="component" transform="rotate(90.0 43.945 16.230)"/>
+    <text x="43.945" y="17.730" class="component-label">R59</text>
+    <rect x="52.251" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 52.751 0.870)"/>
+    <text x="52.751" y="2.370" class="component-label">R61</text>
+    <rect x="10.545" y="1.155" width="1.0" height="1.0" class="component" transform="rotate(180.0 11.045 1.655)"/>
+    <text x="11.045" y="3.155" class="component-label">C65</text>
+    <rect x="55.380" y="6.867" width="1.0" height="1.0" class="component" transform="rotate(90.0 55.880 7.367)"/>
+    <text x="55.880" y="8.867" class="component-label">R62</text>
+    <rect x="40.245" y="7.300" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 7.800)"/>
+    <text x="40.745" y="9.300" class="component-label">C66</text>
+    <rect x="61.970" y="38.460" width="1.0" height="1.0" class="component"/>
+    <text x="62.470" y="40.460" class="component-label">R63</text>
+    <rect x="50.525" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 51.025 30.830)"/>
+    <text x="51.025" y="32.330" class="component-label">C67</text>
+    <rect x="61.970" y="37.400" width="1.0" height="1.0" class="component" transform="rotate(180.0 62.470 37.900)"/>
+    <text x="62.470" y="39.400" class="component-label">R64</text>
+    <rect x="61.300" y="24.002" width="1.0" height="1.0" class="component" transform="rotate(270.0 61.800 24.502)"/>
+    <text x="61.800" y="26.002" class="component-label">C68</text>
+    <rect x="56.055" y="19.695" width="1.0" height="1.0" class="component" transform="rotate(90.0 56.555 20.195)"/>
+    <text x="56.555" y="21.695" class="component-label">C70</text>
+    <rect x="14.860" y="0.120" width="1.0" height="1.0" class="component" transform="rotate(270.0 15.360 0.620)"/>
+    <text x="15.360" y="2.120" class="component-label">C101</text>
+    <rect x="12.255" y="32.100" width="1.0" height="1.0" class="component" transform="rotate(270.0 12.755 32.600)"/>
+    <text x="12.755" y="34.100" class="component-label">R65</text>
+    <rect x="40.245" y="0.120" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 0.620)"/>
+    <text x="40.745" y="2.120" class="component-label">C71</text>
+    <rect x="49.060" y="20.770" width="1.0" height="1.0" class="component" transform="rotate(270.0 49.560 21.270)"/>
+    <text x="49.560" y="22.770" class="component-label">C69</text>
+    <rect x="15.455" y="1.970" width="1.0" height="1.0" class="component"/>
+    <text x="15.955" y="3.970" class="component-label">C111</text>
+    <rect x="14.230" y="38.765" width="1.0" height="1.0" class="component"/>
+    <text x="14.730" y="40.765" class="component-label">R66</text>
+    <rect x="40.245" y="3.180" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 3.680)"/>
+    <text x="40.745" y="5.180" class="component-label">C72</text>
+    <rect x="47.947" y="35.417" width="1.0" height="1.0" class="component" transform="rotate(180.0 48.447 35.917)"/>
+    <text x="48.447" y="37.417" class="component-label">C121</text>
+    <rect x="40.570" y="26.296" width="1.0" height="1.0" class="component" transform="rotate(90.0 41.070 26.796)"/>
+    <text x="41.070" y="28.296" class="component-label">R67</text>
+    <rect x="40.245" y="6.240" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 6.740)"/>
+    <text x="40.745" y="8.240" class="component-label">C73</text>
+    <rect x="43.197" y="26.013" width="1.0" height="1.0" class="component"/>
+    <text x="43.697" y="28.013" class="component-label">SP11</text>
+    <rect x="53.795" y="24.860" width="1.0" height="1.0" class="component" transform="rotate(270.0 54.295 25.360)"/>
+    <text x="54.295" y="26.860" class="component-label">ST10</text>
+    <rect x="45.705" y="16.845" width="1.0" height="1.0" class="component"/>
+    <text x="46.205" y="18.845" class="component-label">C109</text>
+    <rect x="62.545" y="36.340" width="1.0" height="1.0" class="component"/>
+    <text x="63.045" y="38.340" class="component-label">TP11</text>
+    <rect x="40.462" y="34.032" width="1.0" height="1.0" class="component"/>
+    <text x="40.962" y="36.032" class="component-label">C131</text>
+    <rect x="61.970" y="37.930" width="1.0" height="1.0" class="component"/>
+    <text x="62.470" y="39.930" class="component-label">R70</text>
+    <rect x="40.570" y="27.310" width="1.0" height="1.0" class="component" transform="rotate(90.0 41.070 27.810)"/>
+    <text x="41.070" y="29.310" class="component-label">R68</text>
+    <rect x="40.245" y="5.710" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 6.210)"/>
+    <text x="40.745" y="7.710" class="component-label">C74</text>
+    <rect x="37.750" y="30.800" width="1.0" height="1.0" class="component"/>
+    <text x="38.250" y="32.800" class="component-label">SP21</text>
+    <rect x="5.140" y="3.800" width="1.0" height="1.0" class="component"/>
+    <text x="5.640" y="5.800" class="component-label">ST20</text>
+    <rect x="4.237" y="1.060" width="1.0" height="1.0" class="component"/>
+    <text x="4.737" y="3.060" class="component-label">R101</text>
+    <rect x="58.935" y="37.450" width="1.0" height="1.0" class="component" transform="rotate(90.0 59.435 37.950)"/>
+    <text x="59.435" y="39.450" class="component-label">C119</text>
+    <rect x="5.939" y="0.155" width="1.0" height="1.0" class="component" transform="rotate(180.0 6.439 0.655)"/>
+    <text x="6.439" y="2.155" class="component-label">C141</text>
+    <rect x="57.617" y="37.607" width="1.0" height="1.0" class="component" transform="rotate(180.0 58.117 38.107)"/>
+    <text x="58.117" y="39.607" class="component-label">R71</text>
+    <rect x="41.570" y="26.187" width="1.0" height="1.0" class="component" transform="rotate(180.0 42.070 26.687)"/>
+    <text x="42.070" y="28.187" class="component-label">R69</text>
+    <rect x="46.315" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 46.815 0.870)"/>
+    <text x="46.815" y="2.370" class="component-label">ST30</text>
+    <rect x="59.109" y="-1.579" width="1.0" height="1.0" class="component" transform="rotate(180.0 59.609 -1.079)"/>
+    <text x="59.609" y="0.421" class="component-label">SP31</text>
+    <rect x="40.245" y="6.770" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 7.270)"/>
+    <text x="40.745" y="8.770" class="component-label">C75</text>
+    <rect x="8.200" y="3.970" width="1.0" height="1.0" class="component" transform="rotate(180.0 8.700 4.470)"/>
+    <text x="8.700" y="5.970" class="component-label">C129</text>
+    <rect x="70.895" y="7.880" width="1.0" height="1.0" class="component" transform="rotate(270.0 71.395 8.380)"/>
+    <text x="71.395" y="9.880" class="component-label">C151</text>
+    <rect x="55.851" y="20.766" width="1.0" height="1.0" class="component"/>
+    <text x="56.351" y="22.766" class="component-label">ST18</text>
+    <rect x="54.790" y="37.195" width="1.0" height="1.0" class="component" transform="rotate(180.0 55.290 37.695)"/>
+    <text x="55.290" y="39.195" class="component-label">R72</text>
+    <rect x="56.990" y="22.865" width="1.0" height="1.0" class="component"/>
+    <text x="57.490" y="24.865" class="component-label">SP19</text>
+    <rect x="47.700" y="15.475" width="1.0" height="1.0" class="component"/>
+    <text x="48.200" y="17.475" class="component-label">SP41</text>
+    <rect x="49.540" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 50.040 0.870)"/>
+    <text x="50.040" y="2.370" class="component-label">C76</text>
+    <rect x="55.106" y="23.940" width="1.0" height="1.0" class="component"/>
+    <text x="55.606" y="25.940" class="component-label">C139</text>
+    <rect x="50.520" y="31.750" width="1.0" height="1.0" class="component"/>
+    <text x="51.020" y="33.750" class="component-label">C161</text>
+    <rect x="55.869" y="-1.600" width="1.0" height="1.0" class="component" transform="rotate(180.0 56.369 -1.100)"/>
+    <text x="56.369" y="0.400" class="component-label">SP29</text>
+    <rect x="45.255" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(90.0 45.755 0.870)"/>
+    <text x="45.755" y="2.370" class="component-label">ST28</text>
+    <rect x="64.920" y="21.745" width="1.0" height="1.0" class="component"/>
+    <text x="65.420" y="23.745" class="component-label">R73</text>
+    <rect x="40.005" y="16.753" width="1.0" height="1.0" class="component" transform="rotate(270.0 40.505 17.253)"/>
+    <text x="40.505" y="18.753" class="component-label">C77</text>
+    <rect x="12.895" y="30.900" width="1.0" height="1.0" class="component" transform="rotate(90.0 13.395 31.400)"/>
+    <text x="13.395" y="32.900" class="component-label">R109</text>
+    <rect x="48.545" y="31.405" width="1.0" height="1.0" class="component" transform="rotate(90.0 49.045 31.905)"/>
+    <text x="49.045" y="33.405" class="component-label">C149</text>
+    <rect x="48.720" y="37.695" width="1.0" height="1.0" class="component" transform="rotate(180.0 49.220 38.195)"/>
+    <text x="49.220" y="39.695" class="component-label">C171</text>
+    <rect x="53.490" y="-1.604" width="1.0" height="1.0" class="component" transform="rotate(180.0 53.990 -1.104)"/>
+    <text x="53.990" y="0.396" class="component-label">SP39</text>
+    <rect x="63.905" y="21.745" width="1.0" height="1.0" class="component" transform="rotate(180.0 64.405 22.245)"/>
+    <text x="64.405" y="23.745" class="component-label">R74</text>
+    <rect x="15.455" y="2.500" width="1.0" height="1.0" class="component"/>
+    <text x="15.955" y="4.500" class="component-label">C80</text>
+    <rect x="62.980" y="35.280" width="1.0" height="1.0" class="component"/>
+    <text x="63.480" y="37.280" class="component-label">C78</text>
+    <rect x="40.245" y="11.010" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 11.510)"/>
+    <text x="40.745" y="13.010" class="component-label">C159</text>
+    <rect x="2.725" y="34.215" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 34.715)"/>
+    <text x="3.225" y="36.215" class="component-label">R141</text>
+    <rect x="56.720" y="35.830" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.220 36.330)"/>
+    <text x="57.220" y="37.830" class="component-label">C181</text>
+    <rect x="42.630" y="24.806" width="1.0" height="1.0" class="component" transform="rotate(90.0 43.130 25.306)"/>
+    <text x="43.130" y="26.806" class="component-label">C201</text>
+    <rect x="61.970" y="35.810" width="1.0" height="1.0" class="component"/>
+    <text x="62.470" y="37.810" class="component-label">R75</text>
+    <rect x="59.403" y="15.256" width="1.0" height="1.0" class="component" transform="rotate(90.0 59.903 15.756)"/>
+    <text x="59.903" y="17.256" class="component-label">SP49</text>
+    <rect x="59.600" y="37.220" width="1.0" height="1.0" class="component" transform="rotate(90.0 60.100 37.720)"/>
+    <text x="60.100" y="39.220" class="component-label">C79</text>
+    <rect x="12.210" y="0.120" width="1.0" height="1.0" class="component" transform="rotate(270.0 12.710 0.620)"/>
+    <text x="12.710" y="2.120" class="component-label">C81</text>
+    <rect x="50.385" y="19.995" width="1.0" height="1.0" class="component" transform="rotate(180.0 50.885 20.495)"/>
+    <text x="50.885" y="21.995" class="component-label">R129</text>
+    <rect x="49.995" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 50.495 30.830)"/>
+    <text x="50.495" y="32.330" class="component-label">C169</text>
+    <rect x="52.115" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 52.615 30.830)"/>
+    <text x="52.615" y="32.330" class="component-label">R151</text>
+    <rect x="2.725" y="33.150" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 33.650)"/>
+    <text x="3.225" y="35.150" class="component-label">C191</text>
+    <rect x="54.200" y="25.965" width="1.0" height="1.0" class="component"/>
+    <text x="54.700" y="27.965" class="component-label">C211</text>
+    <rect x="41.060" y="34.990" width="1.0" height="1.0" class="component" transform="rotate(270.0 41.560 35.490)"/>
+    <text x="41.560" y="36.990" class="component-label">R76</text>
+    <rect x="15.455" y="4.090" width="1.0" height="1.0" class="component"/>
+    <text x="15.955" y="6.090" class="component-label">C82</text>
+    <rect x="40.245" y="11.540" width="1.0" height="1.0" class="component"/>
+    <text x="40.745" y="13.540" class="component-label">R139</text>
+    <rect x="56.720" y="32.760" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.220 33.260)"/>
+    <text x="57.220" y="34.760" class="component-label">C179</text>
+    <rect x="10.515" y="34.895" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="36.895" class="component-label">C221</text>
+    <rect x="41.060" y="38.250" width="1.0" height="1.0" class="component" transform="rotate(90.0 41.560 38.750)"/>
+    <text x="41.560" y="40.250" class="component-label">R77</text>
+    <rect x="57.790" y="22.210" width="1.0" height="1.0" class="component"/>
+    <text x="58.290" y="24.210" class="component-label">R149</text>
+    <rect x="40.245" y="0.650" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 1.150)"/>
+    <text x="40.745" y="2.650" class="component-label">C83</text>
+    <rect x="-2.915" y="13.300" width="1.0" height="1.0" class="component" transform="rotate(180.0 -2.415 13.800)"/>
+    <text x="-2.415" y="15.300" class="component-label">C209</text>
+    <rect x="45.137" y="36.182" width="1.0" height="1.0" class="component" transform="rotate(180.0 45.637 36.682)"/>
+    <text x="45.637" y="38.182" class="component-label">C189</text>
+    <rect x="40.035" y="26.296" width="1.0" height="1.0" class="component" transform="rotate(270.0 40.535 26.796)"/>
+    <text x="40.535" y="28.296" class="component-label">C231</text>
+    <rect x="42.650" y="36.000" width="1.0" height="1.0" class="component" transform="rotate(270.0 43.150 36.500)"/>
+    <text x="43.150" y="38.000" class="component-label">R80</text>
+    <rect x="42.650" y="37.240" width="1.0" height="1.0" class="component" transform="rotate(90.0 43.150 37.740)"/>
+    <text x="43.150" y="39.240" class="component-label">R78</text>
+    <rect x="13.800" y="0.120" width="1.0" height="1.0" class="component" transform="rotate(270.0 14.300 0.620)"/>
+    <text x="14.300" y="2.120" class="component-label">C84</text>
+    <rect x="10.515" y="33.835" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="35.835" class="component-label">C219</text>
+    <rect x="40.215" y="17.993" width="1.0" height="1.0" class="component" transform="rotate(270.0 40.715 18.493)"/>
+    <text x="40.715" y="19.993" class="component-label">C199</text>
+    <rect x="49.410" y="31.911" width="1.0" height="1.0" class="component" transform="rotate(90.0 49.910 32.411)"/>
+    <text x="49.910" y="33.911" class="component-label">C241</text>
+    <rect x="41.060" y="37.240" width="1.0" height="1.0" class="component" transform="rotate(270.0 41.560 37.740)"/>
+    <text x="41.560" y="39.240" class="component-label">R79</text>
+    <rect x="41.060" y="36.000" width="1.0" height="1.0" class="component" transform="rotate(90.0 41.560 36.500)"/>
+    <text x="41.560" y="38.000" class="component-label">R81</text>
+    <rect x="52.115" y="31.340" width="1.0" height="1.0" class="component" transform="rotate(90.0 52.615 31.840)"/>
+    <text x="52.615" y="33.340" class="component-label">C85</text>
+    <rect x="65.810" y="12.660" width="1.0" height="1.0" class="component" transform="rotate(270.0 66.310 13.160)"/>
+    <text x="66.310" y="14.660" class="component-label">C229</text>
+    <rect x="58.676" y="14.285" width="1.0" height="1.0" class="component"/>
+    <text x="59.176" y="16.285" class="component-label">C251</text>
+    <rect x="62.533" y="17.521" width="1.0" height="1.0" class="component"/>
+    <text x="63.033" y="19.521" class="component-label">R82</text>
+    <rect x="51.055" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 51.555 30.830)"/>
+    <text x="51.555" y="32.330" class="component-label">C86</text>
+    <rect x="60.000" y="33.050" width="1.0" height="1.0" class="component" transform="rotate(180.0 60.500 33.550)"/>
+    <text x="60.500" y="35.050" class="component-label">C239</text>
+    <rect x="40.220" y="10.480" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.720 10.980)"/>
+    <text x="40.720" y="12.480" class="component-label">C261</text>
+    <rect x="52.070" y="17.815" width="1.0" height="1.0" class="component" transform="rotate(90.0 52.570 18.315)"/>
+    <text x="52.570" y="19.815" class="component-label">R83</text>
+    <rect x="57.625" y="16.949" width="1.0" height="1.0" class="component" transform="rotate(180.0 58.125 17.449)"/>
+    <text x="58.125" y="18.949" class="component-label">C87</text>
+    <rect x="44.997" y="37.594" width="1.0" height="1.0" class="component" transform="rotate(270.0 45.497 38.094)"/>
+    <text x="45.497" y="39.594" class="component-label">C249</text>
+    <rect x="64.845" y="25.725" width="1.0" height="1.0" class="component" transform="rotate(180.0 65.345 26.225)"/>
+    <text x="65.345" y="27.725" class="component-label">C271</text>
+    <rect x="57.730" y="35.300" width="1.0" height="1.0" class="component"/>
+    <text x="58.230" y="37.300" class="component-label">R84</text>
+    <rect x="60.708" y="15.239" width="1.0" height="1.0" class="component"/>
+    <text x="61.208" y="17.239" class="component-label">C88</text>
+    <rect x="51.920" y="32.830" width="1.0" height="1.0" class="component" transform="rotate(180.0 52.420 33.330)"/>
+    <text x="52.420" y="34.830" class="component-label">C90</text>
+    <rect x="54.600" y="30.975" width="1.0" height="1.0" class="component" transform="rotate(90.0 55.100 31.475)"/>
+    <text x="55.100" y="32.975" class="component-label">C259</text>
+    <rect x="40.000" y="36.000" width="1.0" height="1.0" class="component" transform="rotate(90.0 40.500 36.500)"/>
+    <text x="40.500" y="38.000" class="component-label">C281</text>
+    <rect x="57.730" y="35.830" width="1.0" height="1.0" class="component"/>
+    <text x="58.230" y="37.830" class="component-label">R85</text>
+    <rect x="62.462" y="19.259" width="1.0" height="1.0" class="component"/>
+    <text x="62.962" y="21.259" class="component-label">C89</text>
+    <rect x="51.920" y="32.300" width="1.0" height="1.0" class="component" transform="rotate(180.0 52.420 32.800)"/>
+    <text x="52.420" y="34.300" class="component-label">C91</text>
+    <rect x="48.005" y="31.340" width="1.0" height="1.0" class="component" transform="rotate(90.0 48.505 31.840)"/>
+    <text x="48.505" y="33.340" class="component-label">R86</text>
+    <rect x="53.175" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 53.675 30.830)"/>
+    <text x="53.675" y="32.330" class="component-label">C92</text>
+    <rect x="40.000" y="37.240" width="1.0" height="1.0" class="component" transform="rotate(270.0 40.500 37.740)"/>
+    <text x="40.500" y="39.240" class="component-label">C279</text>
+    <rect x="61.970" y="36.870" width="1.0" height="1.0" class="component" transform="rotate(180.0 62.470 37.370)"/>
+    <text x="62.470" y="38.870" class="component-label">R87</text>
+    <rect x="51.585" y="31.340" width="1.0" height="1.0" class="component" transform="rotate(90.0 52.085 31.840)"/>
+    <text x="52.085" y="33.340" class="component-label">C93</text>
+    <rect x="48.858" y="16.695" width="1.0" height="1.0" class="component" transform="rotate(180.0 49.358 17.195)"/>
+    <text x="49.358" y="18.695" class="component-label">R88</text>
+    <rect x="64.500" y="36.300" width="1.0" height="1.0" class="component" transform="rotate(90.0 65.000 36.800)"/>
+    <text x="65.000" y="38.300" class="component-label">R90</text>
+    <rect x="40.245" y="9.420" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 9.920)"/>
+    <text x="40.745" y="11.420" class="component-label">C94</text>
+    <rect x="47.475" y="31.340" width="1.0" height="1.0" class="component" transform="rotate(270.0 47.975 31.840)"/>
+    <text x="47.975" y="33.340" class="component-label">R91</text>
+    <rect x="43.216" y="30.898" width="1.0" height="1.0" class="component" transform="rotate(180.0 43.716 31.398)"/>
+    <text x="43.716" y="32.898" class="component-label">R89</text>
+    <rect x="40.245" y="8.890" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 9.390)"/>
+    <text x="40.745" y="10.890" class="component-label">C95</text>
+    <rect x="57.625" y="16.347" width="1.0" height="1.0" class="component"/>
+    <text x="58.125" y="18.347" class="component-label">R92</text>
+    <rect x="46.452" y="19.425" width="1.0" height="1.0" class="component"/>
+    <text x="46.952" y="21.425" class="component-label">C96</text>
+    <rect x="55.238" y="38.143" width="1.0" height="1.0" class="component" transform="rotate(270.0 55.738 38.643)"/>
+    <text x="55.738" y="40.143" class="component-label">R93</text>
+    <rect x="57.730" y="36.890" width="1.0" height="1.0" class="component" transform="rotate(180.0 58.230 37.390)"/>
+    <text x="58.230" y="38.890" class="component-label">C97</text>
+    <rect x="57.730" y="33.820" width="1.0" height="1.0" class="component"/>
+    <text x="58.230" y="35.820" class="component-label">R94</text>
+    <rect x="15.455" y="3.030" width="1.0" height="1.0" class="component"/>
+    <text x="15.955" y="5.030" class="component-label">C98</text>
+    <rect x="57.730" y="33.290" width="1.0" height="1.0" class="component"/>
+    <text x="58.230" y="35.290" class="component-label">R95</text>
+    <rect x="6.782" y="1.060" width="1.0" height="1.0" class="component"/>
+    <text x="7.282" y="3.060" class="component-label">C99</text>
+    <rect x="57.730" y="32.760" width="1.0" height="1.0" class="component"/>
+    <text x="58.230" y="34.760" class="component-label">R96</text>
+    <rect x="57.730" y="36.360" width="1.0" height="1.0" class="component"/>
+    <text x="58.230" y="38.360" class="component-label">R97</text>
+    <rect x="48.087" y="16.960" width="1.0" height="1.0" class="component" transform="rotate(90.0 48.587 17.460)"/>
+    <text x="48.587" y="18.960" class="component-label">R98</text>
+    <rect x="54.110" y="27.845" width="1.0" height="1.0" class="component"/>
+    <text x="54.610" y="29.845" class="component-label">R99</text>
+    <rect x="40.245" y="2.650" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 3.150)"/>
+    <text x="40.745" y="4.650" class="component-label">C102</text>
+    <rect x="14.330" y="0.120" width="1.0" height="1.0" class="component" transform="rotate(270.0 14.830 0.620)"/>
+    <text x="14.830" y="2.120" class="component-label">C112</text>
+    <rect x="56.542" y="37.985" width="1.0" height="1.0" class="component" transform="rotate(270.0 57.042 38.485)"/>
+    <text x="57.042" y="39.985" class="component-label">C122</text>
+    <rect x="43.787" y="28.935" width="1.0" height="1.0" class="component"/>
+    <text x="44.287" y="30.935" class="component-label">SP12</text>
+    <rect x="63.712" y="5.965" width="1.0" height="1.0" class="component" transform="rotate(180.0 64.212 6.465)"/>
+    <text x="64.212" y="7.965" class="component-label">ST11</text>
+    <rect x="57.990" y="31.190" width="1.0" height="1.0" class="component"/>
+    <text x="58.490" y="33.190" class="component-label">TP12</text>
+    <rect x="53.190" y="32.980" width="1.0" height="1.0" class="component"/>
+    <text x="53.690" y="34.980" class="component-label">C132</text>
+    <rect x="39.950" y="15.810" width="1.0" height="1.0" class="component"/>
+    <text x="40.450" y="17.810" class="component-label">SP22</text>
+    <rect x="44.585" y="30.800" width="1.0" height="1.0" class="component" transform="rotate(180.0 45.085 31.300)"/>
+    <text x="45.085" y="32.800" class="component-label">ST21</text>
+    <rect x="46.715" y="16.845" width="1.0" height="1.0" class="component"/>
+    <text x="47.215" y="18.845" class="component-label">R102</text>
+    <rect x="41.400" y="17.446" width="1.0" height="1.0" class="component" transform="rotate(90.0 41.900 17.946)"/>
+    <text x="41.900" y="19.446" class="component-label">C142</text>
+    <rect x="18.741" y="2.771" width="1.0" height="1.0" class="component" transform="rotate(90.0 19.241 3.271)"/>
+    <text x="19.241" y="4.771" class="component-label">ST31</text>
+    <rect x="56.703" y="-1.600" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.203 -1.100)"/>
+    <text x="57.203" y="0.400" class="component-label">SP32</text>
+    <rect x="48.005" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 48.505 30.830)"/>
+    <text x="48.505" y="32.330" class="component-label">C152</text>
+    <rect x="54.565" y="29.975" width="1.0" height="1.0" class="component"/>
+    <text x="55.065" y="31.975" class="component-label">ST19</text>
+    <rect x="56.851" y="17.161" width="1.0" height="1.0" class="component" transform="rotate(270.0 57.351 17.661)"/>
+    <text x="57.351" y="19.161" class="component-label">SP42</text>
+    <rect x="50.520" y="31.220" width="1.0" height="1.0" class="component"/>
+    <text x="51.020" y="33.220" class="component-label">C162</text>
+    <rect x="48.435" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 48.935 0.870)"/>
+    <text x="48.935" y="2.370" class="component-label">ST29</text>
+    <rect x="56.680" y="24.018" width="1.0" height="1.0" class="component" transform="rotate(90.0 57.180 24.518)"/>
+    <text x="57.180" y="26.018" class="component-label">R132</text>
+    <rect x="46.840" y="35.350" width="1.0" height="1.0" class="component" transform="rotate(90.0 47.340 35.850)"/>
+    <text x="47.340" y="37.350" class="component-label">C172</text>
+    <rect x="62.482" y="15.723" width="1.0" height="1.0" class="component" transform="rotate(180.0 62.982 16.223)"/>
+    <text x="62.982" y="17.723" class="component-label">R142</text>
+    <rect x="63.860" y="5.300" width="1.0" height="1.0" class="component"/>
+    <text x="64.360" y="7.300" class="component-label">C202</text>
+    <rect x="56.720" y="35.300" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.220 35.800)"/>
+    <text x="57.220" y="37.300" class="component-label">C182</text>
+    <rect x="57.790" y="22.740" width="1.0" height="1.0" class="component" transform="rotate(180.0 58.290 23.240)"/>
+    <text x="58.290" y="24.740" class="component-label">R152</text>
+    <rect x="2.725" y="33.680" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 34.180)"/>
+    <text x="3.225" y="35.680" class="component-label">C212</text>
+    <rect x="2.725" y="32.620" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 33.120)"/>
+    <text x="3.225" y="34.620" class="component-label">C192</text>
+    <rect x="10.515" y="35.425" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="37.425" class="component-label">C222</text>
+    <rect x="40.035" y="27.310" width="1.0" height="1.0" class="component" transform="rotate(270.0 40.535 27.810)"/>
+    <text x="40.535" y="29.310" class="component-label">C232</text>
+    <rect x="63.088" y="16.622" width="1.0" height="1.0" class="component" transform="rotate(180.0 63.588 17.122)"/>
+    <text x="63.588" y="18.622" class="component-label">C242</text>
+    <rect x="47.730" y="19.224" width="1.0" height="1.0" class="component" transform="rotate(270.0 48.230 19.724)"/>
+    <text x="48.230" y="21.224" class="component-label">C252</text>
+    <rect x="40.245" y="7.830" width="1.0" height="1.0" class="component"/>
+    <text x="40.745" y="9.830" class="component-label">C262</text>
+    <rect x="10.220" y="25.015" width="1.0" height="1.0" class="component" transform="rotate(270.0 10.720 25.515)"/>
+    <text x="10.720" y="27.015" class="component-label">C272</text>
+    <rect x="57.313" y="7.463" width="1.0" height="1.0" class="component" transform="rotate(270.0 57.813 7.963)"/>
+    <text x="57.813" y="9.463" class="component-label">C282</text>
+    <rect x="64.695" y="19.195" width="1.0" height="1.0" class="component"/>
+    <text x="65.195" y="21.195" class="component-label">C103</text>
+    <rect x="3.090" y="1.810" width="1.0" height="1.0" class="component" transform="rotate(270.0 3.590 2.310)"/>
+    <text x="3.590" y="3.810" class="component-label">C113</text>
+    <rect x="54.385" y="36.195" width="1.0" height="1.0" class="component" transform="rotate(90.0 54.885 36.695)"/>
+    <text x="54.885" y="38.195" class="component-label">C123</text>
+    <rect x="44.700" y="24.850" width="1.0" height="1.0" class="component"/>
+    <text x="45.200" y="26.850" class="component-label">SP13</text>
+    <rect x="55.265" y="30.825" width="1.0" height="1.0" class="component" transform="rotate(90.0 55.765 31.325)"/>
+    <text x="55.765" y="32.825" class="component-label">ST12</text>
+    <rect x="33.890" y="22.329" width="1.0" height="1.0" class="component"/>
+    <text x="34.390" y="24.329" class="component-label">TP13</text>
+    <rect x="53.190" y="32.180" width="1.0" height="1.0" class="component"/>
+    <text x="53.690" y="34.180" class="component-label">C133</text>
+    <rect x="49.504" y="-1.600" width="1.0" height="1.0" class="component" transform="rotate(180.0 50.004 -1.100)"/>
+    <text x="50.004" y="0.400" class="component-label">SP23</text>
+    <rect x="44.416" y="30.270" width="1.0" height="1.0" class="component" transform="rotate(180.0 44.916 30.770)"/>
+    <text x="44.916" y="32.270" class="component-label">ST22</text>
+    <rect x="56.470" y="12.005" width="1.0" height="1.0" class="component" transform="rotate(90.0 56.970 12.505)"/>
+    <text x="56.970" y="14.005" class="component-label">R103</text>
+    <rect x="60.665" y="13.898" width="1.0" height="1.0" class="component" transform="rotate(270.0 61.165 14.398)"/>
+    <text x="61.165" y="15.898" class="component-label">C143</text>
+    <rect x="55.350" y="4.915" width="1.0" height="1.0" class="component" transform="rotate(180.0 55.850 5.415)"/>
+    <text x="55.850" y="6.915" class="component-label">SP33</text>
+    <rect x="18.467" y="1.403" width="1.0" height="1.0" class="component" transform="rotate(180.0 18.967 1.903)"/>
+    <text x="18.967" y="3.403" class="component-label">ST32</text>
+    <rect x="41.590" y="34.990" width="1.0" height="1.0" class="component" transform="rotate(270.0 42.090 35.490)"/>
+    <text x="42.090" y="36.990" class="component-label">C153</text>
+    <rect x="59.905" y="15.260" width="1.0" height="1.0" class="component"/>
+    <text x="60.405" y="17.260" class="component-label">SP43</text>
+    <rect x="59.360" y="38.450" width="1.0" height="1.0" class="component"/>
+    <text x="59.860" y="40.450" class="component-label">R123</text>
+    <rect x="52.645" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 53.145 30.830)"/>
+    <text x="53.145" y="32.330" class="component-label">C163</text>
+    <rect x="50.125" y="20.770" width="1.0" height="1.0" class="component" transform="rotate(270.0 50.625 21.270)"/>
+    <text x="50.625" y="22.770" class="component-label">R133</text>
+    <rect x="69.765" y="33.985" width="1.0" height="1.0" class="component"/>
+    <text x="70.265" y="35.985" class="component-label">C173</text>
+    <rect x="60.651" y="21.252" width="1.0" height="1.0" class="component" transform="rotate(180.0 61.151 21.752)"/>
+    <text x="61.151" y="23.252" class="component-label">R143</text>
+    <rect x="57.730" y="38.346" width="1.0" height="1.0" class="component" transform="rotate(180.0 58.230 38.846)"/>
+    <text x="58.230" y="40.346" class="component-label">C203</text>
+    <rect x="48.535" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 49.035 30.830)"/>
+    <text x="49.035" y="32.330" class="component-label">C183</text>
+    <rect x="57.790" y="23.800" width="1.0" height="1.0" class="component" transform="rotate(180.0 58.290 24.300)"/>
+    <text x="58.290" y="25.800" class="component-label">R153</text>
+    <rect x="2.726" y="38.463" width="1.0" height="1.0" class="component"/>
+    <text x="3.226" y="40.463" class="component-label">C213</text>
+    <rect x="2.725" y="32.090" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 32.590)"/>
+    <text x="3.225" y="34.090" class="component-label">C193</text>
+    <rect x="10.515" y="36.485" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="38.485" class="component-label">C223</text>
+    <rect x="40.323" y="28.134" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.823 28.634)"/>
+    <text x="40.823" y="30.134" class="component-label">C233</text>
+    <rect x="3.570" y="3.300" width="1.0" height="1.0" class="component" transform="rotate(180.0 4.070 3.800)"/>
+    <text x="4.070" y="5.300" class="component-label">C243</text>
+    <rect x="68.105" y="12.780" width="1.0" height="1.0" class="component" transform="rotate(270.0 68.605 13.280)"/>
+    <text x="68.605" y="14.780" class="component-label">C253</text>
+    <rect x="40.235" y="12.606" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.735 13.106)"/>
+    <text x="40.735" y="14.606" class="component-label">C263</text>
+    <rect x="11.020" y="25.015" width="1.0" height="1.0" class="component" transform="rotate(270.0 11.520 25.515)"/>
+    <text x="11.520" y="27.015" class="component-label">C273</text>
+    <rect x="61.365" y="8.625" width="1.0" height="1.0" class="component"/>
+    <text x="61.865" y="10.625" class="component-label">C283</text>
+    <rect x="10.515" y="30.655" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="32.655" class="component-label">C104</text>
+    <rect x="6.590" y="3.880" width="1.0" height="1.0" class="component"/>
+    <text x="7.090" y="5.880" class="component-label">C114</text>
+    <rect x="40.350" y="1.650" width="1.0" height="1.0" class="component" transform="rotate(90.0 40.850 2.150)"/>
+    <text x="40.850" y="3.650" class="component-label">C124</text>
+    <rect x="57.905" y="18.757" width="1.0" height="1.0" class="component" transform="rotate(90.0 58.405 19.257)"/>
+    <text x="58.405" y="20.757" class="component-label">SP14</text>
+    <rect x="55.426" y="22.900" width="1.0" height="1.0" class="component" transform="rotate(180.0 55.926 23.400)"/>
+    <text x="55.926" y="24.900" class="component-label">ST13</text>
+    <rect x="26.252" y="22.326" width="1.0" height="1.0" class="component"/>
+    <text x="26.752" y="24.326" class="component-label">TP14</text>
+    <rect x="63.860" y="6.900" width="1.0" height="1.0" class="component"/>
+    <text x="64.360" y="8.900" class="component-label">C134</text>
+    <rect x="47.070" y="-1.638" width="1.0" height="1.0" class="component"/>
+    <text x="47.570" y="0.362" class="component-label">SP24</text>
+    <rect x="1.690" y="29.440" width="1.0" height="1.0" class="component"/>
+    <text x="2.190" y="31.440" class="component-label">ST23</text>
+    <rect x="59.039" y="24.566" width="1.0" height="1.0" class="component" transform="rotate(270.0 59.539 25.066)"/>
+    <text x="59.539" y="26.566" class="component-label">R104</text>
+    <rect x="62.988" y="18.390" width="1.0" height="1.0" class="component"/>
+    <text x="63.488" y="20.390" class="component-label">C144</text>
+    <rect x="56.920" y="5.815" width="1.0" height="1.0" class="component" transform="rotate(90.0 57.420 6.315)"/>
+    <text x="57.420" y="7.815" class="component-label">SP34</text>
+    <rect x="13.270" y="0.117" width="1.0" height="1.0" class="component" transform="rotate(90.0 13.770 0.617)"/>
+    <text x="13.770" y="2.117" class="component-label">ST33</text>
+    <rect x="47.475" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 47.975 30.830)"/>
+    <text x="47.975" y="32.330" class="component-label">C154</text>
+    <rect x="61.560" y="14.759" width="1.0" height="1.0" class="component" transform="rotate(90.0 62.060 15.259)"/>
+    <text x="62.060" y="16.759" class="component-label">SP44</text>
+    <rect x="57.730" y="34.550" width="1.0" height="1.0" class="component" transform="rotate(180.0 58.230 35.050)"/>
+    <text x="58.230" y="36.550" class="component-label">R124</text>
+    <rect x="17.730" y="30.315" width="1.0" height="1.0" class="component" transform="rotate(270.0 18.230 30.815)"/>
+    <text x="18.230" y="32.315" class="component-label">C164</text>
+    <rect x="55.783" y="38.143" width="1.0" height="1.0" class="component" transform="rotate(90.0 56.283 38.643)"/>
+    <text x="56.283" y="40.143" class="component-label">R134</text>
+    <rect x="12.785" y="32.100" width="1.0" height="1.0" class="component" transform="rotate(90.0 13.285 32.600)"/>
+    <text x="13.285" y="34.100" class="component-label">C174</text>
+    <rect x="57.907" y="19.573" width="1.0" height="1.0" class="component"/>
+    <text x="58.407" y="21.573" class="component-label">R144</text>
+    <rect x="17.250" y="33.700" width="1.0" height="1.0" class="component" transform="rotate(90.0 17.750 34.200)"/>
+    <text x="17.750" y="35.700" class="component-label">C184</text>
+    <rect x="55.185" y="36.195" width="1.0" height="1.0" class="component" transform="rotate(270.0 55.685 36.695)"/>
+    <text x="55.685" y="38.195" class="component-label">C204</text>
+    <rect x="15.085" y="25.200" width="1.0" height="1.0" class="component" transform="rotate(180.0 15.585 25.700)"/>
+    <text x="15.585" y="27.200" class="component-label">R154</text>
+    <rect x="10.515" y="35.955" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="37.955" class="component-label">C214</text>
+    <rect x="2.725" y="31.560" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 32.060)"/>
+    <text x="3.225" y="33.560" class="component-label">C194</text>
+    <rect x="10.515" y="38.605" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="40.605" class="component-label">C224</text>
+    <rect x="10.515" y="39.665" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="41.665" class="component-label">C234</text>
+    <rect x="40.395" y="24.746" width="1.0" height="1.0" class="component" transform="rotate(90.0 40.895 25.246)"/>
+    <text x="40.895" y="26.746" class="component-label">C244</text>
+    <rect x="65.430" y="16.100" width="1.0" height="1.0" class="component"/>
+    <text x="65.930" y="18.100" class="component-label">C254</text>
+    <rect x="72.275" y="16.610" width="1.0" height="1.0" class="component"/>
+    <text x="72.775" y="18.610" class="component-label">C264</text>
+    <rect x="12.350" y="25.015" width="1.0" height="1.0" class="component" transform="rotate(270.0 12.850 25.515)"/>
+    <text x="12.850" y="27.015" class="component-label">C274</text>
+    <rect x="57.510" y="4.255" width="1.0" height="1.0" class="component" transform="rotate(270.0 58.010 4.755)"/>
+    <text x="58.010" y="6.255" class="component-label">C284</text>
+    <rect x="47.925" y="8.050" width="1.0" height="1.0" class="component" transform="rotate(90.0 48.425 8.550)"/>
+    <text x="48.425" y="10.050" class="component-label">XD1</text>
+    <rect x="2.875" y="28.545" width="1.0" height="1.0" class="component" transform="rotate(90.0 3.375 29.045)"/>
+    <text x="3.375" y="30.545" class="component-label">C105</text>
+    <rect x="44.240" y="24.200" width="1.0" height="1.0" class="component" transform="rotate(180.0 44.740 24.700)"/>
+    <text x="44.740" y="26.200" class="component-label">C115</text>
+    <rect x="56.049" y="21.435" width="1.0" height="1.0" class="component"/>
+    <text x="56.549" y="23.435" class="component-label">C125</text>
+    <rect x="59.005" y="12.890" width="1.0" height="1.0" class="component" transform="rotate(270.0 59.505 13.390)"/>
+    <text x="59.505" y="14.890" class="component-label">ST14</text>
+    <rect x="57.360" y="18.756" width="1.0" height="1.0" class="component" transform="rotate(90.0 57.860 19.256)"/>
+    <text x="57.860" y="20.756" class="component-label">SP15</text>
+    <rect x="47.444" y="38.327" width="1.0" height="1.0" class="component"/>
+    <text x="47.944" y="40.327" class="component-label">C135</text>
+    <rect x="48.001" y="-1.612" width="1.0" height="1.0" class="component"/>
+    <text x="48.501" y="0.388" class="component-label">SP25</text>
+    <rect x="47.905" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 48.405 0.870)"/>
+    <text x="48.405" y="2.370" class="component-label">ST24</text>
+    <rect x="12.855" y="35.303" width="1.0" height="1.0" class="component"/>
+    <text x="13.355" y="37.303" class="component-label">R105</text>
+    <rect x="51.135" y="17.030" width="1.0" height="1.0" class="component" transform="rotate(270.0 51.635 17.530)"/>
+    <text x="51.635" y="19.030" class="component-label">C145</text>
+    <rect x="51.899" y="-1.581" width="1.0" height="1.0" class="component" transform="rotate(180.0 52.399 -1.081)"/>
+    <text x="52.399" y="0.419" class="component-label">SP35</text>
+    <rect x="10.540" y="3.135" width="1.0" height="1.0" class="component"/>
+    <text x="11.040" y="5.135" class="component-label">ST34</text>
+    <rect x="46.945" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 47.445 30.830)"/>
+    <text x="47.445" y="32.330" class="component-label">C155</text>
+    <rect x="57.905" y="18.165" width="1.0" height="1.0" class="component" transform="rotate(90.0 58.405 18.665)"/>
+    <text x="58.405" y="20.165" class="component-label">SP45</text>
+    <rect x="67.813" y="32.200" width="1.0" height="1.0" class="component" transform="rotate(270.0 68.313 32.700)"/>
+    <text x="68.313" y="34.200" class="component-label">R125</text>
+    <rect x="17.730" y="37.120" width="1.0" height="1.0" class="component" transform="rotate(90.0 18.230 37.620)"/>
+    <text x="18.230" y="39.120" class="component-label">C165</text>
+    <rect x="54.135" y="22.885" width="1.0" height="1.0" class="component" transform="rotate(180.0 54.635 23.385)"/>
+    <text x="54.635" y="24.885" class="component-label">R135</text>
+    <rect x="11.300" y="30.900" width="1.0" height="1.0" class="component" transform="rotate(90.0 11.800 31.400)"/>
+    <text x="11.800" y="32.900" class="component-label">C175</text>
+    <rect x="59.428" y="19.577" width="1.0" height="1.0" class="component" transform="rotate(180.0 59.928 20.077)"/>
+    <text x="59.928" y="21.577" class="component-label">R145</text>
+    <rect x="2.725" y="29.440" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 29.940)"/>
+    <text x="3.225" y="31.440" class="component-label">C185</text>
+    <rect x="43.685" y="23.145" width="1.0" height="1.0" class="component" transform="rotate(180.0 44.185 23.645)"/>
+    <text x="44.185" y="25.145" class="component-label">C205</text>
+    <rect x="69.250" y="37.500" width="1.0" height="1.0" class="component"/>
+    <text x="69.750" y="39.500" class="component-label">R155</text>
+    <rect x="10.515" y="31.715" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="33.715" class="component-label">C215</text>
+    <rect x="2.725" y="31.030" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 31.530)"/>
+    <text x="3.225" y="33.030" class="component-label">C195</text>
+    <rect x="10.515" y="37.545" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="39.545" class="component-label">C225</text>
+    <rect x="40.301" y="29.479" width="1.0" height="1.0" class="component" transform="rotate(90.0 40.801 29.979)"/>
+    <text x="40.801" y="31.479" class="component-label">C235</text>
+    <rect x="68.750" y="32.726" width="1.0" height="1.0" class="component" transform="rotate(90.0 69.250 33.226)"/>
+    <text x="69.250" y="34.726" class="component-label">C245</text>
+    <rect x="56.081" y="22.235" width="1.0" height="1.0" class="component"/>
+    <text x="56.581" y="24.235" class="component-label">C255</text>
+    <rect x="50.345" y="18.434" width="1.0" height="1.0" class="component" transform="rotate(180.0 50.845 18.934)"/>
+    <text x="50.845" y="20.434" class="component-label">C265</text>
+    <rect x="13.950" y="25.015" width="1.0" height="1.0" class="component" transform="rotate(270.0 14.450 25.515)"/>
+    <text x="14.450" y="27.015" class="component-label">C275</text>
+    <rect x="55.340" y="25.870" width="1.0" height="1.0" class="component" transform="rotate(90.0 55.840 26.370)"/>
+    <text x="55.840" y="27.870" class="component-label">C285</text>
+    <rect x="8.495" y="1.450" width="1.0" height="1.0" class="component" transform="rotate(90.0 8.995 1.950)"/>
+    <text x="8.995" y="3.450" class="component-label">B1</text>
+    <rect x="29.800" y="0.300" width="1.0" height="1.0" class="component" transform="rotate(90.0 30.300 0.800)"/>
+    <text x="30.300" y="2.300" class="component-label">C1</text>
+    <rect x="47.925" y="8.050" width="1.0" height="1.0" class="component" transform="rotate(90.0 48.425 8.550)"/>
+    <text x="48.425" y="10.050" class="component-label">D1</text>
+    <rect x="10.650" y="1.950" width="1.0" height="1.0" class="component" transform="rotate(90.0 11.150 2.450)"/>
+    <text x="11.150" y="3.950" class="component-label">E1</text>
+    <rect x="18.035" y="32.695" width="1.0" height="1.0" class="component" transform="rotate(180.0 18.535 33.195)"/>
+    <text x="18.535" y="34.695" class="component-label">F1</text>
+    <rect x="30.600" y="0.300" width="1.0" height="1.0" class="component" transform="rotate(90.0 31.100 0.800)"/>
+    <text x="31.100" y="2.300" class="component-label">L1</text>
+    <rect x="49.250" y="25.550" width="1.0" height="1.0" class="component"/>
+    <text x="49.750" y="27.550" class="component-label">N1</text>
+    <rect x="68.635" y="12.780" width="1.0" height="1.0" class="component" transform="rotate(270.0 69.135 13.280)"/>
+    <text x="69.135" y="14.780" class="component-label">C106</text>
+    <rect x="10.545" y="1.685" width="1.0" height="1.0" class="component"/>
+    <text x="11.045" y="3.685" class="component-label">R1</text>
+    <rect x="44.240" y="27.120" width="1.0" height="1.0" class="component" transform="rotate(180.0 44.740 27.620)"/>
+    <text x="44.740" y="29.120" class="component-label">C116</text>
+    <rect x="65.173" y="9.513" width="1.0" height="1.0" class="component" transform="rotate(180.0 65.673 10.013)"/>
+    <text x="65.673" y="11.513" class="component-label">V1</text>
+    <rect x="56.270" y="24.940" width="1.0" height="1.0" class="component" transform="rotate(180.0 56.770 25.440)"/>
+    <text x="56.770" y="26.940" class="component-label">C126</text>
+    <rect x="56.075" y="17.430" width="1.0" height="1.0" class="component" transform="rotate(90.0 56.575 17.930)"/>
+    <text x="56.575" y="19.430" class="component-label">ST15</text>
+    <rect x="16.695" y="2.550" width="1.0" height="1.0" class="component" transform="rotate(90.0 17.195 3.050)"/>
+    <text x="17.195" y="4.550" class="component-label">Z1</text>
+    <rect x="61.305" y="-1.575" width="1.0" height="1.0" class="component" transform="rotate(270.0 61.805 -1.075)"/>
+    <text x="61.805" y="0.425" class="component-label">SP16</text>
+    <rect x="10.315" y="3.880" width="1.0" height="1.0" class="component" transform="rotate(180.0 10.815 4.380)"/>
+    <text x="10.815" y="5.880" class="component-label">C136</text>
+    <rect x="44.195" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 44.695 0.870)"/>
+    <text x="44.695" y="2.370" class="component-label">ST25</text>
+    <rect x="46.317" y="-1.686" width="1.0" height="1.0" class="component"/>
+    <text x="46.817" y="0.314" class="component-label">SP26</text>
+    <rect x="12.845" y="34.773" width="1.0" height="1.0" class="component"/>
+    <text x="13.345" y="36.773" class="component-label">R106</text>
+    <rect x="56.036" y="28.180" width="1.0" height="1.0" class="component"/>
+    <text x="56.536" y="30.180" class="component-label">C146</text>
+    <rect x="52.835" y="19.830" width="1.0" height="1.0" class="component" transform="rotate(180.0 53.335 20.330)"/>
+    <text x="53.335" y="21.830" class="component-label">B2</text>
+    <rect x="55.381" y="6.055" width="1.0" height="1.0" class="component" transform="rotate(180.0 55.881 6.555)"/>
+    <text x="55.881" y="8.055" class="component-label">SP36</text>
+    <rect x="44.725" y="0.365" width="1.0" height="1.0" class="component" transform="rotate(270.0 45.225 0.865)"/>
+    <text x="45.225" y="2.365" class="component-label">ST35</text>
+    <rect x="26.220" y="0.340" width="1.0" height="1.0" class="component" transform="rotate(90.0 26.720 0.840)"/>
+    <text x="26.720" y="2.340" class="component-label">C2</text>
+    <rect x="2.725" y="36.865" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 37.365)"/>
+    <text x="3.225" y="38.865" class="component-label">C156</text>
+    <rect x="13.000" y="2.500" width="1.0" height="1.0" class="component"/>
+    <text x="13.500" y="4.500" class="component-label">D2</text>
+    <rect x="52.715" y="19.300" width="1.0" height="1.0" class="component" transform="rotate(90.0 53.215 19.800)"/>
+    <text x="53.215" y="21.300" class="component-label">E2</text>
+    <rect x="57.835" y="15.725" width="1.0" height="1.0" class="component" transform="rotate(90.0 58.335 16.225)"/>
+    <text x="58.335" y="17.725" class="component-label">SP46</text>
+    <rect x="18.035" y="34.690" width="1.0" height="1.0" class="component" transform="rotate(180.0 18.535 35.190)"/>
+    <text x="18.535" y="36.690" class="component-label">F2</text>
+    <rect x="61.730" y="32.790" width="1.0" height="1.0" class="component" transform="rotate(270.0 62.230 33.290)"/>
+    <text x="62.230" y="34.790" class="component-label">R126</text>
+    <rect x="49.465" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 49.965 30.830)"/>
+    <text x="49.965" y="32.330" class="component-label">C166</text>
+    <rect x="62.665" y="27.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 63.165 27.830)"/>
+    <text x="63.165" y="29.330" class="component-label">R136</text>
+    <rect x="0.010" y="13.300" width="1.0" height="1.0" class="component" transform="rotate(180.0 0.510 13.800)"/>
+    <text x="0.510" y="15.300" class="component-label">L2</text>
+    <rect x="12.360" y="30.900" width="1.0" height="1.0" class="component" transform="rotate(90.0 12.860 31.400)"/>
+    <text x="12.860" y="32.900" class="component-label">C176</text>
+    <rect x="22.195" y="0.455" width="1.0" height="1.0" class="component" transform="rotate(90.0 22.695 0.955)"/>
+    <text x="22.695" y="2.455" class="component-label">N2</text>
+    <rect x="59.201" y="20.623" width="1.0" height="1.0" class="component" transform="rotate(180.0 59.701 21.123)"/>
+    <text x="59.701" y="22.623" class="component-label">R146</text>
+    <rect x="57.040" y="0.700" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.540 1.200)"/>
+    <text x="57.540" y="2.700" class="component-label">C206</text>
+    <rect x="2.725" y="34.745" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 35.245)"/>
+    <text x="3.225" y="36.745" class="component-label">C186</text>
+    <rect x="17.970" y="4.050" width="1.0" height="1.0" class="component"/>
+    <text x="18.470" y="6.050" class="component-label">R2</text>
+    <rect x="46.197" y="38.445" width="1.0" height="1.0" class="component"/>
+    <text x="46.697" y="40.445" class="component-label">R156</text>
+    <rect x="2.725" y="30.500" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 31.000)"/>
+    <text x="3.225" y="32.500" class="component-label">C196</text>
+    <rect x="10.515" y="32.245" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="34.245" class="component-label">C216</text>
+    <rect x="42.806" y="30.108" width="1.0" height="1.0" class="component"/>
+    <text x="43.306" y="32.108" class="component-label">V2</text>
+    <rect x="13.100" y="27.750" width="1.0" height="1.0" class="component"/>
+    <text x="13.600" y="29.750" class="component-label">X2</text>
+    <rect x="10.515" y="37.015" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="39.015" class="component-label">C226</text>
+    <rect x="25.120" y="0.238" width="1.0" height="1.0" class="component" transform="rotate(90.0 25.620 0.738)"/>
+    <text x="25.620" y="2.238" class="component-label">Z2</text>
+    <rect x="72.325" y="15.303" width="1.0" height="1.0" class="component" transform="rotate(90.0 72.825 15.803)"/>
+    <text x="72.825" y="17.303" class="component-label">C236</text>
+    <rect x="63.515" y="30.774" width="1.0" height="1.0" class="component" transform="rotate(270.0 64.015 31.274)"/>
+    <text x="64.015" y="32.774" class="component-label">C246</text>
+    <rect x="54.035" y="18.825" width="1.0" height="1.0" class="component" transform="rotate(270.0 54.535 19.325)"/>
+    <text x="54.535" y="20.825" class="component-label">B3</text>
+    <rect x="27.826" y="0.340" width="1.0" height="1.0" class="component" transform="rotate(270.0 28.326 0.840)"/>
+    <text x="28.326" y="2.340" class="component-label">C3</text>
+    <rect x="54.260" y="28.510" width="1.0" height="1.0" class="component"/>
+    <text x="54.760" y="30.510" class="component-label">C256</text>
+    <rect x="59.850" y="35.100" width="1.0" height="1.0" class="component"/>
+    <text x="60.350" y="37.100" class="component-label">D3</text>
+    <rect x="46.095" y="15.730" width="1.0" height="1.0" class="component" transform="rotate(90.0 46.595 16.230)"/>
+    <text x="46.595" y="17.730" class="component-label">C266</text>
+    <rect x="40.000" y="34.990" width="1.0" height="1.0" class="component" transform="rotate(270.0 40.500 35.490)"/>
+    <text x="40.500" y="36.990" class="component-label">C276</text>
+    <rect x="27.025" y="0.340" width="1.0" height="1.0" class="component" transform="rotate(90.0 27.525 0.840)"/>
+    <text x="27.525" y="2.340" class="component-label">L3</text>
+    <rect x="60.450" y="4.300" width="1.0" height="1.0" class="component"/>
+    <text x="60.950" y="6.300" class="component-label">N3</text>
+    <rect x="51.905" y="37.070" width="1.0" height="1.0" class="component"/>
+    <text x="52.405" y="39.070" class="component-label">C286</text>
+    <rect x="60.235" y="25.555" width="1.0" height="1.0" class="component" transform="rotate(180.0 60.735 26.055)"/>
+    <text x="60.735" y="27.555" class="component-label">R3</text>
+    <rect x="12.750" y="37.450" width="1.0" height="1.0" class="component" transform="rotate(180.0 13.250 37.950)"/>
+    <text x="13.250" y="39.450" class="component-label">V3</text>
+    <rect x="-0.400" y="11.200" width="1.0" height="1.0" class="component"/>
+    <text x="0.100" y="13.200" class="component-label">X3</text>
+    <rect x="64.200" y="3.050" width="1.0" height="1.0" class="component" transform="rotate(270.0 64.700 3.550)"/>
+    <text x="64.700" y="5.050" class="component-label">Z3</text>
+    <rect x="24.140" y="0.240" width="1.0" height="1.0" class="component" transform="rotate(90.0 24.640 0.740)"/>
+    <text x="24.640" y="2.240" class="component-label">C4</text>
+    <rect x="49.180" y="17.535" width="1.0" height="1.0" class="component" transform="rotate(270.0 49.680 18.035)"/>
+    <text x="49.680" y="19.535" class="component-label">D4</text>
+    <rect x="16.695" y="3.800" width="1.0" height="1.0" class="component"/>
+    <text x="17.195" y="5.800" class="component-label">L4</text>
+    <rect x="29.050" y="12.091" width="1.0" height="1.0" class="component"/>
+    <text x="29.550" y="14.091" class="component-label">N4</text>
+    <rect x="11.725" y="32.103" width="1.0" height="1.0" class="component" transform="rotate(270.0 12.225 32.603)"/>
+    <text x="12.225" y="34.103" class="component-label">R4</text>
+    <rect x="15.510" y="38.300" width="1.0" height="1.0" class="component"/>
+    <text x="16.010" y="40.300" class="component-label">V4</text>
+    <rect x="-0.400" y="8.200" width="1.0" height="1.0" class="component"/>
+    <text x="0.100" y="10.200" class="component-label">X4</text>
+    <rect x="60.686" y="20.347" width="1.0" height="1.0" class="component" transform="rotate(90.0 61.186 20.847)"/>
+    <text x="61.186" y="22.347" class="component-label">Z4</text>
+    <rect x="69.510" y="28.425" width="1.0" height="1.0" class="component" transform="rotate(180.0 70.010 28.925)"/>
+    <text x="70.010" y="30.425" class="component-label">B5</text>
+    <rect x="20.555" y="1.005" width="1.0" height="1.0" class="component" transform="rotate(180.0 21.055 1.505)"/>
+    <text x="21.055" y="3.005" class="component-label">C5</text>
+    <rect x="60.035" y="17.408" width="1.0" height="1.0" class="component" transform="rotate(270.0 60.535 17.908)"/>
+    <text x="60.535" y="19.408" class="component-label">D5</text>
+    <rect x="23.605" y="0.720" width="1.0" height="1.0" class="component" transform="rotate(90.0 24.105 1.220)"/>
+    <text x="24.105" y="2.720" class="component-label">L5</text>
+    <rect x="10.300" y="14.000" width="1.0" height="1.0" class="component" transform="rotate(270.0 10.800 14.500)"/>
+    <text x="10.800" y="16.000" class="component-label">N5</text>
+    <rect x="16.085" y="25.200" width="1.0" height="1.0" class="component" transform="rotate(270.0 16.585 25.700)"/>
+    <text x="16.585" y="27.200" class="component-label">C107</text>
+    <rect x="47.852" y="37.418" width="1.0" height="1.0" class="component" transform="rotate(270.0 48.352 37.918)"/>
+    <text x="48.352" y="39.418" class="component-label">R5</text>
+    <rect x="40.350" y="4.180" width="1.0" height="1.0" class="component" transform="rotate(90.0 40.850 4.680)"/>
+    <text x="40.850" y="6.180" class="component-label">C117</text>
+    <rect x="12.070" y="33.558" width="1.0" height="1.0" class="component" transform="rotate(180.0 12.570 34.058)"/>
+    <text x="12.570" y="35.558" class="component-label">V5</text>
+    <rect x="-0.400" y="5.200" width="1.0" height="1.0" class="component"/>
+    <text x="0.100" y="7.200" class="component-label">X5</text>
+    <rect x="54.260" y="29.310" width="1.0" height="1.0" class="component"/>
+    <text x="54.760" y="31.310" class="component-label">C127</text>
+    <rect x="57.190" y="1.365" width="1.0" height="1.0" class="component"/>
+    <text x="57.690" y="3.365" class="component-label">ST16</text>
+    <rect x="61.578" y="15.260" width="1.0" height="1.0" class="component" transform="rotate(90.0 62.078 15.760)"/>
+    <text x="62.078" y="17.260" class="component-label">SP17</text>
+    <rect x="47.157" y="15.472" width="1.0" height="1.0" class="component"/>
+    <text x="47.657" y="17.472" class="component-label">TP17</text>
+    <rect x="48.517" y="36.560" width="1.0" height="1.0" class="component" transform="rotate(90.0 49.017 37.060)"/>
+    <text x="49.017" y="38.560" class="component-label">C137</text>
+    <rect x="45.785" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(90.0 46.285 0.870)"/>
+    <text x="46.285" y="2.370" class="component-label">ST26</text>
+    <rect x="50.321" y="-1.576" width="1.0" height="1.0" class="component" transform="rotate(180.0 50.821 -1.076)"/>
+    <text x="50.821" y="0.424" class="component-label">SP27</text>
+    <rect x="11.830" y="30.900" width="1.0" height="1.0" class="component" transform="rotate(90.0 12.330 31.400)"/>
+    <text x="12.330" y="32.900" class="component-label">R107</text>
+    <rect x="69.880" y="8.030" width="1.0" height="1.0" class="component" transform="rotate(180.0 70.380 8.530)"/>
+    <text x="70.380" y="10.030" class="component-label">C147</text>
+    <rect x="55.350" y="4.415" width="1.0" height="1.0" class="component"/>
+    <text x="55.850" y="6.415" class="component-label">SP37</text>
+    <rect x="20.555" y="0.475" width="1.0" height="1.0" class="component" transform="rotate(180.0 21.055 0.975)"/>
+    <text x="21.055" y="2.475" class="component-label">C6</text>
+    <rect x="2.725" y="35.275" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 35.775)"/>
+    <text x="3.225" y="37.275" class="component-label">C157</text>
+    <rect x="58.397" y="15.256" width="1.0" height="1.0" class="component" transform="rotate(90.0 58.897 15.756)"/>
+    <text x="58.897" y="17.256" class="component-label">SP47</text>
+    <rect x="64.300" y="22.815" width="1.0" height="1.0" class="component"/>
+    <text x="64.800" y="24.815" class="component-label">R127</text>
+    <rect x="46.415" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 46.915 30.830)"/>
+    <text x="46.915" y="32.330" class="component-label">C167</text>
+    <rect x="51.355" y="18.435" width="1.0" height="1.0" class="component" transform="rotate(180.0 51.855 18.935)"/>
+    <text x="51.855" y="20.435" class="component-label">R137</text>
+    <rect x="56.720" y="33.820" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.220 34.320)"/>
+    <text x="57.220" y="35.820" class="component-label">C177</text>
+    <rect x="24.140" y="1.250" width="1.0" height="1.0" class="component" transform="rotate(90.0 24.640 1.750)"/>
+    <text x="24.640" y="3.250" class="component-label">L6</text>
+    <rect x="57.740" y="11.780" width="1.0" height="1.0" class="component"/>
+    <text x="58.240" y="13.780" class="component-label">N6</text>
+    <rect x="46.625" y="15.730" width="1.0" height="1.0" class="component" transform="rotate(90.0 47.125 16.230)"/>
+    <text x="47.125" y="17.730" class="component-label">R147</text>
+    <rect x="2.725" y="37.930" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 38.430)"/>
+    <text x="3.225" y="39.930" class="component-label">C187</text>
+    <rect x="0.345" y="17.300" width="1.0" height="1.0" class="component" transform="rotate(180.0 0.845 17.800)"/>
+    <text x="0.845" y="19.300" class="component-label">C207</text>
+    <rect x="48.530" y="20.770" width="1.0" height="1.0" class="component" transform="rotate(270.0 49.030 21.270)"/>
+    <text x="49.030" y="22.770" class="component-label">R6</text>
+    <rect x="47.852" y="36.408" width="1.0" height="1.0" class="component" transform="rotate(270.0 48.352 36.908)"/>
+    <text x="48.352" y="38.408" class="component-label">R157</text>
+    <rect x="10.515" y="32.775" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="34.775" class="component-label">C217</text>
+    <rect x="2.725" y="29.970" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 30.470)"/>
+    <text x="3.225" y="31.970" class="component-label">C197</text>
+    <rect x="42.101" y="28.233" width="1.0" height="1.0" class="component" transform="rotate(180.0 42.601 28.733)"/>
+    <text x="42.601" y="30.233" class="component-label">V6</text>
+    <rect x="35.348" y="-0.248" width="1.0" height="1.0" class="component" transform="rotate(270.0 35.848 0.252)"/>
+    <text x="35.848" y="1.752" class="component-label">X6</text>
+    <rect x="10.515" y="38.075" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="40.075" class="component-label">C227</text>
+    <rect x="40.301" y="31.643" width="1.0" height="1.0" class="component" transform="rotate(90.0 40.801 32.143)"/>
+    <text x="40.801" y="33.643" class="component-label">C237</text>
+    <rect x="3.407" y="0.155" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.907 0.655)"/>
+    <text x="3.907" y="2.155" class="component-label">C247</text>
+    <rect x="53.315" y="20.995" width="1.0" height="1.0" class="component" transform="rotate(180.0 53.815 21.495)"/>
+    <text x="53.815" y="22.995" class="component-label">C10</text>
+    <rect x="45.885" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 46.385 30.830)"/>
+    <text x="46.385" y="32.330" class="component-label">C7</text>
+    <rect x="55.730" y="29.180" width="1.0" height="1.0" class="component"/>
+    <text x="56.230" y="31.180" class="component-label">C257</text>
+    <rect x="61.730" y="33.800" width="1.0" height="1.0" class="component" transform="rotate(90.0 62.230 34.300)"/>
+    <text x="62.230" y="35.800" class="component-label">C11</text>
+    <rect x="62.720" y="15.055" width="1.0" height="1.0" class="component"/>
+    <text x="63.220" y="17.055" class="component-label">C267</text>
+    <rect x="40.000" y="38.250" width="1.0" height="1.0" class="component" transform="rotate(90.0 40.500 38.750)"/>
+    <text x="40.500" y="40.250" class="component-label">C277</text>
+    <rect x="43.330" y="29.190" width="1.0" height="1.0" class="component" transform="rotate(270.0 43.830 29.690)"/>
+    <text x="43.830" y="31.190" class="component-label">SP1</text>
+    <rect x="62.336" y="20.359" width="1.0" height="1.0" class="component" transform="rotate(90.0 62.836 20.859)"/>
+    <text x="62.836" y="22.359" class="component-label">N10</text>
+    <rect x="5.345" y="2.600" width="1.0" height="1.0" class="component" transform="rotate(90.0 5.845 3.100)"/>
+    <text x="5.845" y="4.600" class="component-label">N7</text>
+    <rect x="6.240" y="2.431" width="1.0" height="1.0" class="component" transform="rotate(270.0 6.740 2.931)"/>
+    <text x="6.740" y="4.431" class="component-label">C13</text>
+    <rect x="51.905" y="35.065" width="1.0" height="1.0" class="component"/>
+    <text x="52.405" y="37.065" class="component-label">C287</text>
+    <rect x="41.301" y="30.318" width="1.0" height="1.0" class="component" transform="rotate(270.0 41.801 30.818)"/>
+    <text x="41.801" y="32.318" class="component-label">L11</text>
+    <rect x="57.420" y="5.815" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.920 6.315)"/>
+    <text x="57.920" y="7.815" class="component-label">SP2</text>
+    <rect x="10.540" y="2.430" width="1.0" height="1.0" class="component"/>
+    <text x="11.040" y="4.430" class="component-label">R7</text>
+    <rect x="64.014" y="12.381" width="1.0" height="1.0" class="component" transform="rotate(270.0 64.514 12.881)"/>
+    <text x="64.514" y="14.381" class="component-label">N11</text>
+    <rect x="43.660" y="28.140" width="1.0" height="1.0" class="component" transform="rotate(270.0 44.160 28.640)"/>
+    <text x="44.160" y="30.140" class="component-label">R10</text>
+    <rect x="68.302" y="10.557" width="1.0" height="1.0" class="component" transform="rotate(180.0 68.802 11.057)"/>
+    <text x="68.802" y="12.557" class="component-label">L12</text>
+    <rect x="57.368" y="18.162" width="1.0" height="1.0" class="component" transform="rotate(90.0 57.868 18.662)"/>
+    <text x="57.868" y="20.162" class="component-label">SP3</text>
+    <rect x="34.394" y="22.330" width="1.0" height="1.0" class="component"/>
+    <text x="34.894" y="24.330" class="component-label">TP3</text>
+    <rect x="60.223" y="24.590" width="1.0" height="1.0" class="component" transform="rotate(180.0 60.723 25.090)"/>
+    <text x="60.723" y="26.590" class="component-label">N12</text>
+    <rect x="54.596" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 55.096 0.870)"/>
+    <text x="55.096" y="2.370" class="component-label">R11</text>
+    <rect x="69.326" y="0.892" width="1.0" height="1.0" class="component" transform="rotate(270.0 69.826 1.392)"/>
+    <text x="69.826" y="2.892" class="component-label">X10</text>
+    <rect x="32.352" y="-0.253" width="1.0" height="1.0" class="component" transform="rotate(270.0 32.852 0.247)"/>
+    <text x="32.852" y="1.747" class="component-label">X7</text>
+    <rect x="67.982" y="9.417" width="1.0" height="1.0" class="component" transform="rotate(90.0 68.482 9.917)"/>
+    <text x="68.482" y="11.417" class="component-label">L13</text>
+    <rect x="48.687" y="-1.588" width="1.0" height="1.0" class="component" transform="rotate(180.0 49.187 -1.088)"/>
+    <text x="49.187" y="0.412" class="component-label">SP4</text>
+    <rect x="47.555" y="16.885" width="1.0" height="1.0" class="component" transform="rotate(90.0 48.055 17.385)"/>
+    <text x="48.055" y="18.885" class="component-label">R12</text>
+    <rect x="46.517" y="36.772" width="1.0" height="1.0" class="component" transform="rotate(270.0 47.017 37.272)"/>
+    <text x="47.017" y="38.772" class="component-label">N13</text>
+    <rect x="60.665" y="37.405" width="1.0" height="1.0" class="component"/>
+    <text x="61.165" y="39.405" class="component-label">TP4</text>
+    <rect x="23.365" y="1.520" width="1.0" height="1.0" class="component" transform="rotate(180.0 23.865 2.020)"/>
+    <text x="23.865" y="3.520" class="component-label">C16</text>
+    <rect x="41.350" y="21.851" width="1.0" height="1.0" class="component" transform="rotate(180.0 41.850 22.351)"/>
+    <text x="41.850" y="23.851" class="component-label">L14</text>
+    <rect x="58.317" y="-1.594" width="1.0" height="1.0" class="component" transform="rotate(180.0 58.817 -1.094)"/>
+    <text x="58.817" y="0.406" class="component-label">SP5</text>
+    <rect x="51.150" y="32.553" width="1.0" height="1.0" class="component" transform="rotate(270.0 51.650 33.053)"/>
+    <text x="51.650" y="34.553" class="component-label">R13</text>
+    <rect x="43.047" y="32.763" width="1.0" height="1.0" class="component" transform="rotate(270.0 43.547 33.263)"/>
+    <text x="43.547" y="34.763" class="component-label">L15</text>
+    <rect x="28.550" y="32.800" width="1.0" height="1.0" class="component"/>
+    <text x="29.050" y="34.800" class="component-label">X12</text>
+    <rect x="44.213" y="25.140" width="1.0" height="1.0" class="component"/>
+    <text x="44.713" y="27.140" class="component-label">SP6</text>
+    <rect x="47.840" y="17.918" width="1.0" height="1.0" class="component"/>
+    <text x="48.340" y="19.918" class="component-label">R14</text>
+    <rect x="11.685" y="25.245" width="1.0" height="1.0" class="component" transform="rotate(270.0 12.185 25.745)"/>
+    <text x="12.185" y="27.245" class="component-label">C18</text>
+    <rect x="49.010" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 49.510 0.870)"/>
+    <text x="49.510" y="2.370" class="component-label">C20</text>
+    <rect x="20.555" y="-0.070" width="1.0" height="1.0" class="component" transform="rotate(180.0 21.055 0.430)"/>
+    <text x="21.055" y="1.930" class="component-label">C8</text>
+    <rect x="42.777" y="26.618" width="1.0" height="1.0" class="component"/>
+    <text x="43.277" y="28.618" class="component-label">L16</text>
+    <rect x="68.975" y="19.195" width="1.0" height="1.0" class="component" transform="rotate(270.0 69.475 19.695)"/>
+    <text x="69.475" y="21.195" class="component-label">X13</text>
+    <rect x="50.491" y="32.327" width="1.0" height="1.0" class="component"/>
+    <text x="50.991" y="34.327" class="component-label">SP7</text>
+    <rect x="60.200" y="37.025" width="1.0" height="1.0" class="component"/>
+    <text x="60.700" y="39.025" class="component-label">TP7</text>
+    <rect x="11.835" y="34.773" width="1.0" height="1.0" class="component"/>
+    <text x="12.335" y="36.773" class="component-label">R15</text>
+    <rect x="45.355" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 45.855 30.830)"/>
+    <text x="45.855" y="32.330" class="component-label">C21</text>
+    <rect x="11.680" y="0.120" width="1.0" height="1.0" class="component" transform="rotate(270.0 12.180 0.620)"/>
+    <text x="12.180" y="2.120" class="component-label">C19</text>
+    <rect x="15.100" y="33.700" width="1.0" height="1.0" class="component" transform="rotate(90.0 15.600 34.200)"/>
+    <text x="15.600" y="35.700" class="component-label">X14</text>
+    <rect x="63.845" y="33.415" width="1.0" height="1.0" class="component" transform="rotate(270.0 64.345 33.915)"/>
+    <text x="64.345" y="35.415" class="component-label">L17</text>
+    <rect x="45.200" y="32.300" width="1.0" height="1.0" class="component"/>
+    <text x="45.700" y="34.300" class="component-label">SP8</text>
+    <rect x="50.028" y="16.695" width="1.0" height="1.0" class="component"/>
+    <text x="50.528" y="18.695" class="component-label">R16</text>
+    <rect x="58.010" y="32.185" width="1.0" height="1.0" class="component"/>
+    <text x="58.510" y="34.185" class="component-label">TP8</text>
+    <rect x="40.245" y="14.205" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 14.705)"/>
+    <text x="40.745" y="16.205" class="component-label">C22</text>
+    <rect x="43.600" y="18.135" width="1.0" height="1.0" class="component"/>
+    <text x="44.100" y="20.135" class="component-label">L18</text>
+    <rect x="40.235" y="12.072" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.735 12.572)"/>
+    <text x="40.735" y="14.072" class="component-label">L20</text>
+    <rect x="46.880" y="19.940" width="1.0" height="1.0" class="component"/>
+    <text x="47.380" y="21.940" class="component-label">SP9</text>
+    <rect x="4.090" y="1.945" width="1.0" height="1.0" class="component"/>
+    <text x="4.590" y="3.945" class="component-label">N8</text>
+    <rect x="61.160" y="37.025" width="1.0" height="1.0" class="component"/>
+    <text x="61.660" y="39.025" class="component-label">TP9</text>
+    <rect x="12.740" y="0.120" width="1.0" height="1.0" class="component" transform="rotate(90.0 13.240 0.620)"/>
+    <text x="13.240" y="2.120" class="component-label">R17</text>
+    <rect x="55.605" y="5.450" width="1.0" height="1.0" class="component"/>
+    <text x="56.105" y="7.450" class="component-label">C23</text>
+    <rect x="40.959" y="19.381" width="1.0" height="1.0" class="component" transform="rotate(180.0 41.459 19.881)"/>
+    <text x="41.459" y="21.381" class="component-label">L19</text>
+    <rect x="42.915" y="15.730" width="1.0" height="1.0" class="component" transform="rotate(90.0 43.415 16.230)"/>
+    <text x="43.415" y="17.730" class="component-label">R8</text>
+    <rect x="15.455" y="3.560" width="1.0" height="1.0" class="component" transform="rotate(180.0 15.955 4.060)"/>
+    <text x="15.955" y="5.560" class="component-label">R18</text>
+    <rect x="57.625" y="17.550" width="1.0" height="1.0" class="component" transform="rotate(180.0 58.125 18.050)"/>
+    <text x="58.125" y="19.550" class="component-label">R20</text>
+    <rect x="55.605" y="3.205" width="1.0" height="1.0" class="component"/>
+    <text x="56.105" y="5.205" class="component-label">C24</text>
+    <rect x="56.248" y="7.152" width="1.0" height="1.0" class="component" transform="rotate(270.0 56.748 7.652)"/>
+    <text x="56.748" y="9.152" class="component-label">L22</text>
+    <rect x="63.497" y="15.723" width="1.0" height="1.0" class="component"/>
+    <text x="63.997" y="17.723" class="component-label">R21</text>
+    <rect x="17.970" y="3.520" width="1.0" height="1.0" class="component"/>
+    <text x="18.470" y="5.520" class="component-label">R19</text>
+    <rect x="55.605" y="15.300" width="1.0" height="1.0" class="component"/>
+    <text x="56.105" y="17.300" class="component-label">C25</text>
+    <rect x="48.952" y="38.367" width="1.0" height="1.0" class="component" transform="rotate(180.0 49.452 38.867)"/>
+    <text x="49.452" y="40.367" class="component-label">L23</text>
+    <rect x="-2.650" y="15.700" width="1.0" height="1.0" class="component" transform="rotate(90.0 -2.150 16.200)"/>
+    <text x="-2.150" y="17.700" class="component-label">X8</text>
+    <rect x="60.415" y="31.160" width="1.0" height="1.0" class="component"/>
+    <text x="60.915" y="33.160" class="component-label">V21</text>
+    <rect x="40.245" y="5.180" width="1.0" height="1.0" class="component"/>
+    <text x="40.745" y="7.180" class="component-label">R22</text>
+    <rect x="55.605" y="3.735" width="1.0" height="1.0" class="component"/>
+    <text x="56.105" y="5.735" class="component-label">C26</text>
+    <rect x="45.832" y="35.477" width="1.0" height="1.0" class="component"/>
+    <text x="46.332" y="37.477" class="component-label">L24</text>
+    <rect x="44.065" y="20.750" width="1.0" height="1.0" class="component" transform="rotate(180.0 44.565 21.250)"/>
+    <text x="44.565" y="22.750" class="component-label">V22</text>
+    <rect x="42.605" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(90.0 43.105 0.870)"/>
+    <text x="43.105" y="2.370" class="component-label">R23</text>
+    <rect x="49.060" y="15.730" width="1.0" height="1.0" class="component" transform="rotate(90.0 49.560 16.230)"/>
+    <text x="49.560" y="17.730" class="component-label">C27</text>
+    <rect x="17.250" y="35.352" width="1.0" height="1.0" class="component" transform="rotate(90.0 17.750 35.852)"/>
+    <text x="17.750" y="37.352" class="component-label">L25</text>
+    <rect x="64.690" y="27.505" width="1.0" height="1.0" class="component" transform="rotate(90.0 65.190 28.005)"/>
+    <text x="65.190" y="29.505" class="component-label">V23</text>
+    <rect x="50.765" y="20.770" width="1.0" height="1.0" class="component" transform="rotate(270.0 51.265 21.270)"/>
+    <text x="51.265" y="22.770" class="component-label">R24</text>
+    <rect x="55.605" y="14.770" width="1.0" height="1.0" class="component"/>
+    <text x="56.105" y="16.770" class="component-label">C30</text>
+    <rect x="55.380" y="7.910" width="1.0" height="1.0" class="component" transform="rotate(270.0 55.880 8.410)"/>
+    <text x="55.880" y="9.910" class="component-label">C28</text>
+    <rect x="52.305" y="20.995" width="1.0" height="1.0" class="component"/>
+    <text x="52.805" y="22.995" class="component-label">C9</text>
+    <rect x="17.250" y="32.050" width="1.0" height="1.0" class="component" transform="rotate(270.0 17.750 32.550)"/>
+    <text x="17.750" y="34.050" class="component-label">L26</text>
+    <rect x="15.455" y="1.440" width="1.0" height="1.0" class="component"/>
+    <text x="15.955" y="3.440" class="component-label">C100</text>
+    <rect x="65.665" y="19.645" width="1.0" height="1.0" class="component" transform="rotate(90.0 66.165 20.145)"/>
+    <text x="66.165" y="21.645" class="component-label">V24</text>
+    <rect x="65.030" y="36.300" width="1.0" height="1.0" class="component" transform="rotate(270.0 65.530 36.800)"/>
+    <text x="65.530" y="38.300" class="component-label">R25</text>
+    <rect x="43.665" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 44.165 0.870)"/>
+    <text x="44.165" y="2.370" class="component-label">C31</text>
+    <rect x="40.220" y="15.295" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.720 15.795)"/>
+    <text x="40.720" y="17.295" class="component-label">C29</text>
+    <rect x="40.535" y="16.753" width="1.0" height="1.0" class="component" transform="rotate(270.0 41.035 17.253)"/>
+    <text x="41.035" y="18.753" class="component-label">C110</text>
+    <rect x="52.963" y="16.018" width="1.0" height="1.0" class="component"/>
+    <text x="53.463" y="18.018" class="component-label">V25</text>
+    <rect x="11.845" y="35.371" width="1.0" height="1.0" class="component" transform="rotate(180.0 12.345 35.871)"/>
+    <text x="12.345" y="37.371" class="component-label">R26</text>
+    <rect x="53.536" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 54.036 0.870)"/>
+    <text x="54.036" y="2.370" class="component-label">C32</text>
+    <rect x="10.680" y="-0.040" width="1.0" height="1.0" class="component" transform="rotate(180.0 11.180 0.460)"/>
+    <text x="11.180" y="1.960" class="component-label">C120</text>
+    <rect x="46.180" y="18.135" width="1.0" height="1.0" class="component" transform="rotate(270.0 46.680 18.635)"/>
+    <text x="46.680" y="20.135" class="component-label">N9</text>
+    <rect x="62.270" y="13.140" width="1.0" height="1.0" class="component" transform="rotate(270.0 62.770 13.640)"/>
+    <text x="62.770" y="15.140" class="component-label">R27</text>
+    <rect x="45.100" y="31.800" width="1.0" height="1.0" class="component"/>
+    <text x="45.600" y="33.800" class="component-label">SP10</text>
+    <rect x="42.075" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 42.575 0.870)"/>
+    <text x="42.575" y="2.370" class="component-label">C33</text>
+    <rect x="68.200" y="37.500" width="1.0" height="1.0" class="component" transform="rotate(90.0 68.700 38.000)"/>
+    <text x="68.700" y="39.500" class="component-label">C108</text>
+    <rect x="57.660" y="31.695" width="1.0" height="1.0" class="component"/>
+    <text x="58.160" y="33.695" class="component-label">TP10</text>
+    <rect x="13.150" y="25.015" width="1.0" height="1.0" class="component" transform="rotate(270.0 13.650 25.515)"/>
+    <text x="13.650" y="27.015" class="component-label">C130</text>
+    <rect x="2.870" y="26.515" width="1.0" height="1.0" class="component" transform="rotate(90.0 3.370 27.015)"/>
+    <text x="3.370" y="28.515" class="component-label">R28</text>
+    <rect x="46.195" y="37.915" width="1.0" height="1.0" class="component" transform="rotate(180.0 46.695 38.415)"/>
+    <text x="46.695" y="39.915" class="component-label">R9</text>
+    <rect x="72.250" y="21.510" width="1.0" height="1.0" class="component" transform="rotate(90.0 72.750 22.010)"/>
+    <text x="72.750" y="23.510" class="component-label">V27</text>
+    <rect x="48.000" y="20.770" width="1.0" height="1.0" class="component" transform="rotate(90.0 48.500 21.270)"/>
+    <text x="48.500" y="22.770" class="component-label">R30</text>
+    <rect x="40.245" y="9.950" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 10.450)"/>
+    <text x="40.745" y="11.950" class="component-label">C34</text>
+    <rect x="58.565" y="24.000" width="1.0" height="1.0" class="component"/>
+    <text x="59.065" y="26.000" class="component-label">SP20</text>
+    <rect x="54.365" y="22.220" width="1.0" height="1.0" class="component"/>
+    <text x="54.865" y="24.220" class="component-label">C118</text>
+    <rect x="56.980" y="4.255" width="1.0" height="1.0" class="component" transform="rotate(270.0 57.480 4.755)"/>
+    <text x="57.480" y="6.255" class="component-label">R100</text>
+    <rect x="54.566" y="26.980" width="1.0" height="1.0" class="component" transform="rotate(180.0 55.066 27.480)"/>
+    <text x="55.066" y="28.980" class="component-label">C140</text>
+    <rect x="2.725" y="38.995" width="1.0" height="1.0" class="component"/>
+    <text x="3.225" y="40.995" class="component-label">R29</text>
+    <rect x="59.710" y="22.755" width="1.0" height="1.0" class="component" transform="rotate(90.0 60.210 23.255)"/>
+    <text x="60.210" y="24.755" class="component-label">V30</text>
+    <rect x="72.252" y="19.406" width="1.0" height="1.0" class="component" transform="rotate(270.0 72.752 19.906)"/>
+    <text x="72.752" y="21.406" class="component-label">V28</text>
+    <rect x="40.530" y="38.250" width="1.0" height="1.0" class="component" transform="rotate(90.0 41.030 38.750)"/>
+    <text x="41.030" y="40.250" class="component-label">R31</text>
+    <rect x="51.115" y="-1.577" width="1.0" height="1.0" class="component" transform="rotate(180.0 51.615 -1.077)"/>
+    <text x="51.615" y="0.423" class="component-label">SP30</text>
+    <rect x="54.066" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 54.566 0.870)"/>
+    <text x="54.566" y="2.370" class="component-label">C35</text>
+    <rect x="57.235" y="14.415" width="1.0" height="1.0" class="component" transform="rotate(90.0 57.735 14.915)"/>
+    <text x="57.735" y="16.415" class="component-label">C128</text>
+    <rect x="72.005" y="0.905" width="1.0" height="1.0" class="component" transform="rotate(270.0 72.505 1.405)"/>
+    <text x="72.505" y="2.905" class="component-label">X9</text>
+    <rect x="44.450" y="28.625" width="1.0" height="1.0" class="component" transform="rotate(90.0 44.950 29.125)"/>
+    <text x="44.950" y="30.625" class="component-label">V31</text>
+    <rect x="40.530" y="34.990" width="1.0" height="1.0" class="component" transform="rotate(270.0 41.030 35.490)"/>
+    <text x="41.030" y="36.990" class="component-label">R32</text>
+    <rect x="57.560" y="20.615" width="1.0" height="1.0" class="component"/>
+    <text x="58.060" y="22.615" class="component-label">V29</text>
+    <rect x="19.358" y="11.850" width="1.0" height="1.0" class="component"/>
+    <text x="19.858" y="13.850" class="component-label">SP18</text>
+    <rect x="18.740" y="3.785" width="1.0" height="1.0" class="component" transform="rotate(90.0 19.240 4.285)"/>
+    <text x="19.240" y="5.785" class="component-label">ST17</text>
+    <rect x="45.035" y="15.730" width="1.0" height="1.0" class="component" transform="rotate(90.0 45.535 16.230)"/>
+    <text x="45.535" y="17.730" class="component-label">C36</text>
+    <rect x="57.497" y="-1.593" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.997 -1.093)"/>
+    <text x="57.997" y="0.407" class="component-label">SP40</text>
+    <rect x="63.164" y="13.720" width="1.0" height="1.0" class="component"/>
+    <text x="63.664" y="15.720" class="component-label">TP18</text>
+    <rect x="63.860" y="7.700" width="1.0" height="1.0" class="component"/>
+    <text x="64.360" y="9.700" class="component-label">C138</text>
+    <rect x="68.158" y="11.223" width="1.0" height="1.0" class="component"/>
+    <text x="68.658" y="13.223" class="component-label">C160</text>
+    <rect x="42.120" y="37.240" width="1.0" height="1.0" class="component" transform="rotate(90.0 42.620 37.740)"/>
+    <text x="42.620" y="39.240" class="component-label">R33</text>
+    <rect x="56.549" y="13.925" width="1.0" height="1.0" class="component" transform="rotate(270.0 57.049 14.425)"/>
+    <text x="57.049" y="15.925" class="component-label">SP28</text>
+    <rect x="68.975" y="35.645" width="1.0" height="1.0" class="component" transform="rotate(90.0 69.475 36.145)"/>
+    <text x="69.475" y="37.645" class="component-label">V32</text>
+    <rect x="57.190" y="3.485" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.690 3.985)"/>
+    <text x="57.690" y="5.485" class="component-label">ST27</text>
+    <rect x="3.610" y="33.679" width="1.0" height="1.0" class="component"/>
+    <text x="4.110" y="35.679" class="component-label">SP50</text>
+    <rect x="13.325" y="32.100" width="1.0" height="1.0" class="component" transform="rotate(90.0 13.825 32.600)"/>
+    <text x="13.825" y="34.100" class="component-label">R108</text>
+    <rect x="40.245" y="8.360" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 8.860)"/>
+    <text x="40.745" y="10.360" class="component-label">C37</text>
+    <rect x="68.872" y="8.105" width="1.0" height="1.0" class="component" transform="rotate(270.0 69.372 8.605)"/>
+    <text x="69.372" y="10.105" class="component-label">C148</text>
+    <rect x="59.641" y="21.252" width="1.0" height="1.0" class="component"/>
+    <text x="60.141" y="23.252" class="component-label">R130</text>
+    <rect x="70.544" y="32.073" width="1.0" height="1.0" class="component"/>
+    <text x="71.044" y="34.073" class="component-label">C170</text>
+    <rect x="52.713" y="-1.597" width="1.0" height="1.0" class="component" transform="rotate(180.0 53.213 -1.097)"/>
+    <text x="53.213" y="0.403" class="component-label">SP38</text>
+    <rect x="68.000" y="35.635" width="1.0" height="1.0" class="component" transform="rotate(90.0 68.500 36.135)"/>
+    <text x="68.500" y="37.635" class="component-label">V33</text>
+    <rect x="44.505" y="15.731" width="1.0" height="1.0" class="component" transform="rotate(270.0 45.005 16.231)"/>
+    <text x="45.005" y="17.731" class="component-label">R34</text>
+    <rect x="53.000" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 53.500 0.870)"/>
+    <text x="53.500" y="2.370" class="component-label">C38</text>
+    <rect x="50.120" y="15.730" width="1.0" height="1.0" class="component" transform="rotate(90.0 50.620 16.230)"/>
+    <text x="50.620" y="17.730" class="component-label">C40</text>
+    <rect x="69.670" y="32.225" width="1.0" height="1.0" class="component" transform="rotate(90.0 70.170 32.725)"/>
+    <text x="70.170" y="34.225" class="component-label">C158</text>
+    <rect x="50.268" y="17.505" width="1.0" height="1.0" class="component" transform="rotate(90.0 50.768 18.005)"/>
+    <text x="50.768" y="19.505" class="component-label">R140</text>
+    <rect x="57.040" y="5.160" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.540 5.660)"/>
+    <text x="57.540" y="7.160" class="component-label">C200</text>
+    <rect x="56.720" y="36.360" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.220 36.860)"/>
+    <text x="57.220" y="38.360" class="component-label">C180</text>
+    <rect x="58.900" y="15.256" width="1.0" height="1.0" class="component" transform="rotate(90.0 59.400 15.756)"/>
+    <text x="59.400" y="17.256" class="component-label">SP48</text>
+    <rect x="1.905" y="27.880" width="1.0" height="1.0" class="component" transform="rotate(180.0 2.405 28.380)"/>
+    <text x="2.405" y="29.880" class="component-label">V34</text>
+    <rect x="46.845" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(90.0 47.345 0.870)"/>
+    <text x="47.345" y="2.370" class="component-label">R35</text>
+    <rect x="48.930" y="19.224" width="1.0" height="1.0" class="component" transform="rotate(90.0 49.430 19.724)"/>
+    <text x="49.430" y="21.224" class="component-label">R128</text>
+    <rect x="43.135" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 43.635 0.870)"/>
+    <text x="43.635" y="2.370" class="component-label">C41</text>
+    <rect x="50.070" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 50.570 0.870)"/>
+    <text x="50.570" y="2.370" class="component-label">C39</text>
+    <rect x="53.705" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 54.205 30.830)"/>
+    <text x="54.205" y="32.330" class="component-label">C168</text>
+    <rect x="51.585" y="30.330" width="1.0" height="1.0" class="component" transform="rotate(90.0 52.085 30.830)"/>
+    <text x="52.085" y="32.330" class="component-label">R150</text>
+    <rect x="10.515" y="39.135" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="41.135" class="component-label">C190</text>
+    <rect x="57.790" y="23.270" width="1.0" height="1.0" class="component"/>
+    <text x="58.290" y="25.270" class="component-label">C210</text>
+    <rect x="61.970" y="35.280" width="1.0" height="1.0" class="component"/>
+    <text x="62.470" y="37.280" class="component-label">R36</text>
+    <rect x="1.905" y="26.170" width="1.0" height="1.0" class="component" transform="rotate(180.0 2.405 26.670)"/>
+    <text x="2.405" y="28.170" class="component-label">V35</text>
+    <rect x="50.601" y="19.223" width="1.0" height="1.0" class="component" transform="rotate(90.0 51.101 19.723)"/>
+    <text x="51.101" y="21.223" class="component-label">R138</text>
+    <rect x="55.605" y="13.180" width="1.0" height="1.0" class="component"/>
+    <text x="56.105" y="15.180" class="component-label">C42</text>
+    <rect x="56.720" y="33.290" width="1.0" height="1.0" class="component" transform="rotate(180.0 57.220 33.790)"/>
+    <text x="57.220" y="35.290" class="component-label">C178</text>
+    <rect x="10.515" y="34.365" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="36.365" class="component-label">C220</text>
+    <rect x="1.905" y="28.735" width="1.0" height="1.0" class="component" transform="rotate(180.0 2.405 29.235)"/>
+    <text x="2.405" y="30.735" class="component-label">V36</text>
+    <rect x="16.830" y="38.775" width="1.0" height="1.0" class="component" transform="rotate(180.0 17.330 39.275)"/>
+    <text x="17.330" y="40.775" class="component-label">R37</text>
+    <rect x="40.245" y="13.140" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 13.640)"/>
+    <text x="40.745" y="15.140" class="component-label">C43</text>
+    <rect x="57.780" y="21.630" width="1.0" height="1.0" class="component"/>
+    <text x="58.280" y="23.630" class="component-label">R148</text>
+    <rect x="0.345" y="15.300" width="1.0" height="1.0" class="component" transform="rotate(180.0 0.845 15.800)"/>
+    <text x="0.845" y="17.300" class="component-label">C208</text>
+    <rect x="2.725" y="37.400" width="1.0" height="1.0" class="component" transform="rotate(180.0 3.225 37.900)"/>
+    <text x="3.225" y="39.400" class="component-label">C188</text>
+    <rect x="13.385" y="33.845" width="1.0" height="1.0" class="component" transform="rotate(270.0 13.885 34.345)"/>
+    <text x="13.885" y="35.845" class="component-label">C230</text>
+    <rect x="40.530" y="36.000" width="1.0" height="1.0" class="component" transform="rotate(90.0 41.030 36.500)"/>
+    <text x="41.030" y="38.000" class="component-label">R40</text>
+    <rect x="40.530" y="37.240" width="1.0" height="1.0" class="component" transform="rotate(270.0 41.030 37.740)"/>
+    <text x="41.030" y="39.240" class="component-label">R38</text>
+    <rect x="1.905" y="27.025" width="1.0" height="1.0" class="component" transform="rotate(180.0 2.405 27.525)"/>
+    <text x="2.405" y="29.025" class="component-label">V37</text>
+    <rect x="56.110" y="25.605" width="1.0" height="1.0" class="component" transform="rotate(180.0 56.610 26.105)"/>
+    <text x="56.610" y="27.605" class="component-label">R158</text>
+    <rect x="40.245" y="14.735" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 15.235)"/>
+    <text x="40.745" y="16.735" class="component-label">C44</text>
+    <rect x="63.860" y="1.050" width="1.0" height="1.0" class="component"/>
+    <text x="64.360" y="3.050" class="component-label">C198</text>
+    <rect x="10.515" y="33.305" width="1.0" height="1.0" class="component"/>
+    <text x="11.015" y="35.305" class="component-label">C218</text>
+    <rect x="60.590" y="29.535" width="1.0" height="1.0" class="component" transform="rotate(180.0 61.090 30.035)"/>
+    <text x="61.090" y="31.535" class="component-label">C240</text>
+    <rect x="34.400" y="23.550" width="1.0" height="1.0" class="component" transform="rotate(180.0 34.900 24.050)"/>
+    <text x="34.900" y="25.550" class="component-label">R41</text>
+    <rect x="17.025" y="30.070" width="1.0" height="1.0" class="component" transform="rotate(270.0 17.525 30.570)"/>
+    <text x="17.525" y="32.070" class="component-label">V38</text>
+    <rect x="42.120" y="36.000" width="1.0" height="1.0" class="component" transform="rotate(270.0 42.620 36.500)"/>
+    <text x="42.620" y="38.000" class="component-label">R39</text>
+    <rect x="48.215" y="15.730" width="1.0" height="1.0" class="component" transform="rotate(90.0 48.715 16.230)"/>
+    <text x="48.715" y="17.730" class="component-label">C45</text>
+    <rect x="42.206" y="30.898" width="1.0" height="1.0" class="component" transform="rotate(180.0 42.706 31.398)"/>
+    <text x="42.706" y="32.898" class="component-label">C228</text>
+    <rect x="41.617" y="24.746" width="1.0" height="1.0" class="component" transform="rotate(90.0 42.117 25.246)"/>
+    <text x="42.117" y="26.746" class="component-label">C250</text>
+    <rect x="34.400" y="24.100" width="1.0" height="1.0" class="component" transform="rotate(180.0 34.900 24.600)"/>
+    <text x="34.900" y="26.100" class="component-label">R42</text>
+    <rect x="17.025" y="37.400" width="1.0" height="1.0" class="component" transform="rotate(90.0 17.525 37.900)"/>
+    <text x="17.525" y="39.400" class="component-label">V39</text>
+    <rect x="50.720" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 51.220 0.870)"/>
+    <text x="51.220" y="2.370" class="component-label">C46</text>
+    <rect x="65.156" y="14.830" width="1.0" height="1.0" class="component" transform="rotate(180.0 65.656 15.330)"/>
+    <text x="65.656" y="16.830" class="component-label">C238</text>
+    <rect x="44.240" y="26.320" width="1.0" height="1.0" class="component" transform="rotate(180.0 44.740 26.820)"/>
+    <text x="44.740" y="28.320" class="component-label">C260</text>
+    <rect x="35.900" y="23.550" width="1.0" height="1.0" class="component" transform="rotate(180.0 36.400 24.050)"/>
+    <text x="36.400" y="25.550" class="component-label">R43</text>
+    <rect x="45.565" y="15.730" width="1.0" height="1.0" class="component" transform="rotate(90.0 46.065 16.230)"/>
+    <text x="46.065" y="17.730" class="component-label">C47</text>
+    <rect x="43.995" y="22.145" width="1.0" height="1.0" class="component" transform="rotate(180.0 44.495 22.645)"/>
+    <text x="44.495" y="24.145" class="component-label">C248</text>
+    <rect x="72.170" y="23.299" width="1.0" height="1.0" class="component" transform="rotate(90.0 72.670 23.799)"/>
+    <text x="72.670" y="25.299" class="component-label">C270</text>
+    <rect x="35.900" y="24.100" width="1.0" height="1.0" class="component" transform="rotate(180.0 36.400 24.600)"/>
+    <text x="36.400" y="26.100" class="component-label">R44</text>
+    <rect x="55.605" y="13.710" width="1.0" height="1.0" class="component"/>
+    <text x="56.105" y="15.710" class="component-label">C50</text>
+    <rect x="47.375" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 47.875 0.870)"/>
+    <text x="47.875" y="2.370" class="component-label">C48</text>
+    <rect x="54.800" y="24.940" width="1.0" height="1.0" class="component"/>
+    <text x="55.300" y="26.940" class="component-label">C258</text>
+    <rect x="41.590" y="36.000" width="1.0" height="1.0" class="component" transform="rotate(270.0 42.090 36.500)"/>
+    <text x="42.090" y="38.000" class="component-label">C280</text>
+    <rect x="65.820" y="11.403" width="1.0" height="1.0" class="component" transform="rotate(270.0 66.320 11.903)"/>
+    <text x="66.320" y="13.403" class="component-label">R45</text>
+    <rect x="55.605" y="2.675" width="1.0" height="1.0" class="component"/>
+    <text x="56.105" y="4.675" class="component-label">C51</text>
+    <rect x="55.605" y="14.240" width="1.0" height="1.0" class="component"/>
+    <text x="56.105" y="16.240" class="component-label">C49</text>
+    <rect x="71.900" y="7.775" width="1.0" height="1.0" class="component"/>
+    <text x="72.400" y="9.775" class="component-label">R46</text>
+    <rect x="40.245" y="13.675" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.745 14.175)"/>
+    <text x="40.745" y="15.675" class="component-label">C52</text>
+    <rect x="41.590" y="37.240" width="1.0" height="1.0" class="component" transform="rotate(90.0 42.090 37.740)"/>
+    <text x="42.090" y="39.240" class="component-label">C278</text>
+    <rect x="41.000" y="15.730" width="1.0" height="1.0" class="component" transform="rotate(270.0 41.500 16.230)"/>
+    <text x="41.500" y="17.730" class="component-label">ST1</text>
+    <rect x="61.065" y="32.750" width="1.0" height="1.0" class="component" transform="rotate(270.0 61.565 33.250)"/>
+    <text x="61.565" y="34.750" class="component-label">R47</text>
+    <rect x="41.015" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 41.515 0.870)"/>
+    <text x="41.515" y="2.370" class="component-label">C53</text>
+    <rect x="56.110" y="26.135" width="1.0" height="1.0" class="component" transform="rotate(180.0 56.610 26.635)"/>
+    <text x="56.610" y="28.135" class="component-label">C288</text>
+    <rect x="56.470" y="13.015" width="1.0" height="1.0" class="component" transform="rotate(270.0 56.970 13.515)"/>
+    <text x="56.970" y="15.015" class="component-label">ST2</text>
+    <rect x="62.515" y="31.080" width="1.0" height="1.0" class="component" transform="rotate(270.0 63.015 31.580)"/>
+    <text x="63.015" y="33.080" class="component-label">R48</text>
+    <rect x="72.190" y="17.618" width="1.0" height="1.0" class="component" transform="rotate(90.0 72.690 18.118)"/>
+    <text x="72.690" y="19.618" class="component-label">R50</text>
+    <rect x="41.545" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 42.045 0.870)"/>
+    <text x="42.045" y="2.370" class="component-label">C54</text>
+    <rect x="10.515" y="31.185" width="1.0" height="1.0" class="component" transform="rotate(180.0 11.015 31.685)"/>
+    <text x="11.015" y="33.185" class="component-label">ST3</text>
+    <rect x="61.772" y="10.171" width="1.0" height="1.0" class="component" transform="rotate(90.0 62.272 10.671)"/>
+    <text x="62.272" y="12.171" class="component-label">R49</text>
+    <rect x="59.850" y="32.385" width="1.0" height="1.0" class="component"/>
+    <text x="60.350" y="34.385" class="component-label">R51</text>
+    <rect x="49.800" y="19.245" width="1.0" height="1.0" class="component" transform="rotate(270.0 50.300 19.745)"/>
+    <text x="50.300" y="21.245" class="component-label">C55</text>
+    <rect x="2.875" y="27.530" width="1.0" height="1.0" class="component" transform="rotate(90.0 3.375 28.030)"/>
+    <text x="3.375" y="29.530" class="component-label">ST4</text>
+    <rect x="45.615" y="33.855" width="1.0" height="1.0" class="component"/>
+    <text x="46.115" y="35.855" class="component-label">R52</text>
+    <rect x="10.545" y="0.625" width="1.0" height="1.0" class="component" transform="rotate(180.0 11.045 1.125)"/>
+    <text x="11.045" y="2.625" class="component-label">C56</text>
+    <rect x="49.590" y="20.770" width="1.0" height="1.0" class="component" transform="rotate(90.0 50.090 21.270)"/>
+    <text x="50.090" y="22.770" class="component-label">ST5</text>
+    <rect x="0.610" y="16.300" width="1.0" height="1.0" class="component" transform="rotate(90.0 1.110 16.800)"/>
+    <text x="1.110" y="18.300" class="component-label">R53</text>
+    <rect x="44.470" y="25.655" width="1.0" height="1.0" class="component" transform="rotate(180.0 44.970 26.155)"/>
+    <text x="44.970" y="27.655" class="component-label">C57</text>
+    <rect x="18.075" y="2.750" width="1.0" height="1.0" class="component" transform="rotate(90.0 18.575 3.250)"/>
+    <text x="18.575" y="4.750" class="component-label">ST6</text>
+    <rect x="51.721" y="0.370" width="1.0" height="1.0" class="component" transform="rotate(270.0 52.221 0.870)"/>
+    <text x="52.221" y="2.370" class="component-label">R54</text>
+    <rect x="56.122" y="26.665" width="1.0" height="1.0" class="component"/>
+    <text x="56.622" y="28.665" class="component-label">C58</text>
+    <rect x="9.315" y="3.855" width="1.0" height="1.0" class="component" transform="rotate(270.0 9.815 4.355)"/>
+    <text x="9.815" y="5.855" class="component-label">C60</text>
+    <rect x="40.314" y="33.367" width="1.0" height="1.0" class="component" transform="rotate(180.0 40.814 33.867)"/>
+    <text x="40.814" y="35.367" class="component-label">ST7</text>
+    <rect x="41.530" y="15.730" width="1.0" height="1.0" class="component" transform="rotate(90.0 42.030 16.230)"/>
+    <text x="42.030" y="17.730" class="component-label">R55</text>
+    <rect x="59.115" y="8.825" width="1.0" height="1.0" class="component" transform="rotate(90.0 59.615 9.325)"/>
+    <text x="59.615" y="10.825" class="component-label">C61</text>
+    <rect x="53.800" y="23.845" width="1.0" height="1.0" class="component" transform="rotate(270.0 54.300 24.345)"/>
+    <text x="54.300" y="25.845" class="component-label">C59</text>
+    <rect x="55.575" y="29.975" width="1.0" height="1.0" class="component"/>
+    <text x="56.075" y="31.975" class="component-label">ST8</text>
+  </g>
+</svg>
