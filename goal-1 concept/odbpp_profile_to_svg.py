@@ -24,6 +24,7 @@ class ComponentParser:
     
     def __init__(self):
         self.units = "MM"
+        self._scale = 1.0
         self.components = []
     
     def parse(self, lines: List[str]):
@@ -41,7 +42,16 @@ class ComponentParser:
     def _parse_line(self, line: str):
         """Parse a single line from the component file"""
         if line.startswith('UNITS='):
-            self.units = line.split('=')[1]
+            self.units = line.split('=')[1].strip().upper()
+            if self.units in ("MM", "MILLIMETERS"):
+                self._scale = 1.0
+            elif self.units in ("INCH", "IN"):
+                self._scale = 25.4
+            elif self.units == "MIL":
+                self._scale = 0.0254
+            else:
+                # Default to mm if unknown
+                self._scale = 1.0
         elif line.startswith('CMP '):
             self._parse_component(line)
     
@@ -55,8 +65,8 @@ class ComponentParser:
         tokens = main_part.split()
         if len(tokens) >= 7:
             pkg_ref = tokens[1]
-            x = float(tokens[2])
-            y = float(tokens[3])
+            x = float(tokens[2]) * self._scale
+            y = float(tokens[3]) * self._scale
             rot = float(tokens[4])
             mirror = tokens[5]
             comp_name = tokens[6]
@@ -80,6 +90,7 @@ class ProfileParser:
     
     def __init__(self):
         self.units = "MM"
+        self._scale = 1.0
         self.features = []
         self.current_surface = None
         self.current_polygon = None
@@ -98,7 +109,15 @@ class ProfileParser:
     def _parse_line(self, line: str):
         """Parse a single line from the profile file"""
         if line.startswith('UNITS='):
-            self.units = line.split('=')[1]
+            self.units = line.split('=')[1].strip().upper()
+            if self.units in ("MM", "MILLIMETERS"):
+                self._scale = 1.0
+            elif self.units in ("INCH", "IN"):
+                self._scale = 25.4
+            elif self.units == "MIL":
+                self._scale = 0.0254
+            else:
+                self._scale = 1.0
         elif line.startswith('S '):
             self._parse_surface_start(line)
         elif line.startswith('OB '):
@@ -127,7 +146,7 @@ class ProfileParser:
     def _parse_outline_begin(self, line: str):
         """Parse outline begin: OB x y type"""
         parts = line.split()
-        x, y = float(parts[1]), float(parts[2])
+        x, y = float(parts[1]) * self._scale, float(parts[2]) * self._scale
         poly_type = parts[3]  # I=island, H=hole
         
         self.current_polygon = {
@@ -140,7 +159,7 @@ class ProfileParser:
     def _parse_outline_segment(self, line: str):
         """Parse outline segment: OS x y"""
         parts = line.split()
-        x, y = float(parts[1]), float(parts[2])
+        x, y = float(parts[1]) * self._scale, float(parts[2]) * self._scale
         
         if self.current_polygon:
             self.current_polygon['segments'].append({
@@ -151,8 +170,8 @@ class ProfileParser:
     def _parse_outline_curve(self, line: str):
         """Parse outline curve: OC end_x end_y center_x center_y cw"""
         parts = line.split()
-        end_x, end_y = float(parts[1]), float(parts[2])
-        center_x, center_y = float(parts[3]), float(parts[4])
+        end_x, end_y = float(parts[1]) * self._scale, float(parts[2]) * self._scale
+        center_x, center_y = float(parts[3]) * self._scale, float(parts[4]) * self._scale
         clockwise = parts[5] == 'Y'
         
         if self.current_polygon:
@@ -184,8 +203,11 @@ class SVGGenerator:
         self.profile_parser = profile_parser
         self.component_parser = component_parser
         self.doc = Document()
+        # Current mirroring mode for this generated SVG
+        self._mirror_over_x = False  # left-right (over y-axis)
+        self._mirror_over_y = False  # top-bottom (over x-axis)
         
-    def generate_svg(self, output_filename: str):
+    def generate_svg(self, output_filename: str, mirror_over_x: bool = False, mirror_over_y: bool = False):
         """Generate SVG file from parsed profile data"""
         # Calculate bounding box
         min_x, min_y, max_x, max_y = self._calculate_bounds()
@@ -202,6 +224,27 @@ class SVGGenerator:
         svg.setAttribute('height', f'{height*100}')
         svg.setAttribute('viewBox', f'{min_x - padding} {min_y - padding} {width} {height}')
         self.doc.appendChild(svg)
+
+        # Persist mirroring flags for child element logic (e.g., text readability)
+        self._mirror_over_x = mirror_over_x
+        self._mirror_over_y = mirror_over_y
+
+        # Optional mirroring within the viewBox:
+        # - mirror_over_x: left-right mirror (over the y-axis)
+        # - mirror_over_y: top-bottom mirror (over the x-axis)
+        content_root = svg
+        if mirror_over_x or mirror_over_y:
+            x0 = min_x - padding
+            y0 = min_y - padding
+            mirror_group = self.doc.createElement('g')
+            if mirror_over_x and mirror_over_y:
+                mirror_group.setAttribute('transform', f'translate({2*x0 + width} {2*y0 + height}) scale(-1,-1)')
+            elif mirror_over_x:
+                mirror_group.setAttribute('transform', f'translate({2*x0 + width} 0) scale(-1,1)')
+            else:  # mirror_over_y only
+                mirror_group.setAttribute('transform', f'translate(0 {2*y0 + height}) scale(1,-1)')
+            svg.appendChild(mirror_group)
+            content_root = mirror_group
         
         # Add styles
         style = self.doc.createElement('style')
@@ -215,11 +258,11 @@ class SVGGenerator:
         
         # Process each surface feature
         for feature in self.profile_parser.features:
-            self._add_surface_to_svg(svg, feature, min_y, max_y)
+            self._add_surface_to_svg(content_root, feature, min_y, max_y)
         
         # Add components if available
         if self.component_parser:
-            self._add_components_to_svg(svg, min_y, max_y)
+            self._add_components_to_svg(content_root, min_y, max_y)
         
         # Write to file
         with open(output_filename, 'w') as f:
@@ -374,6 +417,13 @@ class SVGGenerator:
             text.setAttribute('x', f'{comp_x:.3f}')
             text.setAttribute('y', f'{comp_y + 1.5:.3f}')  # Slightly below the component
             text.setAttribute('class', 'component-label')
+            # Ensure text stays readable when the whole scene is mirrored
+            if self._mirror_over_x or self._mirror_over_y:
+                cx = comp_x
+                cy = comp_y + 1.5
+                sx = -1 if self._mirror_over_x else 1
+                sy = -1 if self._mirror_over_y else 1
+                text.setAttribute('transform', f'translate({cx:.3f} {cy:.3f}) scale({sx},{sy}) translate({-cx:.3f} {-cy:.3f})')
             text.appendChild(self.doc.createTextNode(component['comp_name']))
             components_group.appendChild(text)
 
@@ -470,7 +520,7 @@ def run_from_source(source_path: str, out_top: str, out_bot: str):
                 comp_top_lines = read_text_from_archive(tar, found['comp_top'])
                 comp_top_parser = ComponentParser()
                 comp_top_parser.parse(comp_top_lines)
-            SVGGenerator(prof, comp_top_parser).generate_svg(out_top)
+            SVGGenerator(prof, comp_top_parser).generate_svg(out_top, mirror_over_x=False, mirror_over_y=False)
 
             # Bottom
             comp_bot_parser = None
@@ -478,7 +528,7 @@ def run_from_source(source_path: str, out_top: str, out_bot: str):
                 comp_bot_lines = read_text_from_archive(tar, found['comp_bot'])
                 comp_bot_parser = ComponentParser()
                 comp_bot_parser.parse(comp_bot_lines)
-            SVGGenerator(prof, comp_bot_parser).generate_svg(out_bot)
+            SVGGenerator(prof, comp_bot_parser).generate_svg(out_bot, mirror_over_x=True, mirror_over_y=False)
     else:
         found = discover_in_folder(source_path)
         if not found['profile']:
@@ -491,14 +541,14 @@ def run_from_source(source_path: str, out_top: str, out_bot: str):
         if found['comp_top']:
             comp_top_parser = ComponentParser()
             comp_top_parser.parse_file(found['comp_top'])
-        SVGGenerator(prof, comp_top_parser).generate_svg(out_top)
+        SVGGenerator(prof, comp_top_parser).generate_svg(out_top, mirror_over_x=False, mirror_over_y=False)
 
         # Bottom
         comp_bot_parser = None
         if found['comp_bot']:
             comp_bot_parser = ComponentParser()
             comp_bot_parser.parse_file(found['comp_bot'])
-        SVGGenerator(prof, comp_bot_parser).generate_svg(out_bot)
+        SVGGenerator(prof, comp_bot_parser).generate_svg(out_bot, mirror_over_x=True, mirror_over_y=False)
 
 
 def main():
